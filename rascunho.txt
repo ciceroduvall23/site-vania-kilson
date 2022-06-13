@@ -39,3 +39,35 @@
 
 		</div><!-- container -->
   		
+
+
+
+
+		
+		<!-- ==== GREYWRAP ==== -->
+		<div class="greywrap">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 centered fade-up">
+						<img class="img-responsive" src="images/macbook.png" align="">
+					</div>
+					<div class="col-md-6 fade-down">
+						<h2>Could You Be The Next Delta Ninja?</h2>
+						<p>Often voice and the spoke. No shewing fertile village equally prepare up females as an. That do an case an what plan hour of paid. Invitation is unpleasant astonished preference attachment friendship on</p>
+						<p><a class="btn btn-success">Contact Us</a></p>
+					</div>					
+				</div><!-- row -->
+			</div>
+			<br>
+			<br>
+		</div><!-- greywrap -->
+		
+		<!-- ==== SECTION DIVIDER3 -->
+		<section class="section-divider textdivider divider3">
+			<div class="container">
+				<h1 class="fade-down">DELTA TEAM WILL HELP YOU GROW</h1>
+				<hr>
+				<p class="fade-up">Bringing him smallest met few now returned surprise learning jennings. Objection delivered eagerness he exquisite at do in. Warmly up he nearer mr merely me.</p>
+			</div><!-- container -->
+		</section><!-- section -->
+		

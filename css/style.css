@@ -968,6 +968,41 @@ a:after {
     background: #fff;
 }
 
+.teste
+{
+    display: flex !important;
+    justify-content: center;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    margin: 0;
+    background: whitesmoke;
+
+}
+
+.card
+{
+   
+    max-width: 20%;
+    margin: 50px;
+    box-shadow: 13px 9px 21px 0px rgb(0 0 0 / 78%);
+    border: 6px solid #241212;
+    border-radius: 4px;
+    cursor: pointer;
+
+
+}
+
+img .card:hover
+{
+     width: 60%;
+   
+
+}
+.colunas
+{
+    
+}
+
 .blog-content h2 {
     margin-top: 0;
 }
