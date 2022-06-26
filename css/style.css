@@ -8,6 +8,37 @@ body {
     font-weight: 400;
 }
 
+.zoom {
+	overflow: hidden;
+}
+
+.zoom img {
+	max-width: 100%;
+	-moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.zoom:hover img {
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+.text-item {
+	position: absolute;
+	left: 5%;
+	right: 5%;
+	bottom: 20px;
+	z-index: 10;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: #ffffff;
+	text-align: center;
+	font-weight: 700;
+	text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+}
+
 h1,
 h2, 
 h3, 
@@ -25,21 +56,127 @@ a {
     transition: .3s;
 }
 
+.logo-Vania
+{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: left;
+
+}
+
 .teste{
      display: block;
      position: relative;
     
 }
+.div-infor
+{
+    background-color: #030303;
+    height: 3em;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-between;
+
+}
+.div-infor p{
+
+    color: #ffffff ;
+  
+    font-size: 20px;
+    padding: 11px;
+    font-weight: 500;
+   
+
+}
+.div-infor p:nth-child(1)  {
+
+    color: #ffffff ;
+    padding: 7px 9px;
+    font-size: 20px;
+    padding-top: 10px;
+    font-weight: 500;
+   
+
+}
+
+
 .img01
 {
-    background-image: url("/img/pexels-cottonbro-7885469.jpg");
+    background-image: url("/img/pexels-steve-johnson-4003400.jpg");
     background-size: 100%;
-    max-width: 93%;
-    margin-bottom: 77px;
-    height: 22em;
-    border: solid 4px;
-    border-radius: 2px;
-    border-color: burlywood;
+    max-width: 105%;
+    margin-bottom: 94px;
+    height: 23em;
+    box-shadow: 13px 9px 21px 0px rgb(0 0 0 / 78%);
+    border: 6px solid #241212;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.img01 span{
+    color: #323231;
+    max-width: 105%;
+    overflow: hidden;
+    text-align: center;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    height: 4vh;
+    background: #ffffffc7;
+}
+.img02
+{
+    background-image: url("/img/pexels-steve-johnson-2863263.jpg");
+    background-size: 100%;
+    max-width: 105%;
+    margin-bottom: 94px;
+    height: 23em;
+    box-shadow: 13px 9px 21px 0px rgb(0 0 0 / 78%);
+    border: 6px solid #241212;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.img03
+{
+    background-image: url("/img/pexels-steve-johnson-1930309.jpg");
+    background-size: 100%;
+    max-width: 105%;
+    margin-bottom: 94px;
+    height: 23em;
+    box-shadow: 13px 9px 21px 0px rgb(0 0 0 / 78%);
+    border: 6px solid #241212;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.img04
+{
+    background-image: url("/img/pexels-steve-johnson-1821376.jpg");
+    background-size: 100%;
+    max-width: 105%;
+    margin-bottom: 94px;
+    height: 23em;
+    box-shadow: 13px 9px 21px 0px rgb(0 0 0 / 78%);
+    border: 6px solid #241212;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.img05
+{
+    background-image: url("/img/pexels-steve-johnson-4003400.jpg");
+    background-size: 100%;
+    max-width: 105%;
+    margin-bottom: 94px;
+    height: 23em;
+    box-shadow: 13px 9px 21px 0px rgb(0 0 0 / 78%);
+    border: 6px solid #241212;
+    border-radius: 4px;
+    cursor: pointer;
 }
 a:hover,
 a:active,
@@ -1110,6 +1247,14 @@ a:focus {
     margin-bottom: 25px;
 }
 
+.zoom img {
+	max-width: 100%;
+	-moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+
 .blog .blog-item h3 {
     font-size: 25px;
     font-weight: 600;
@@ -1664,8 +1809,7 @@ a:focus {
 /*******************************/
 .footer {
     position: relative;
-    margin-top: 45px;
-    padding-top: 180px;
+    
     background: #121518;
     color: #ffffff;
 }
