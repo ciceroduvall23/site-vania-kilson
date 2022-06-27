@@ -12,6 +12,63 @@ body {
 	overflow: hidden;
 }
 
+/* ---------------------------------*/
+
+#projects .filters-content .item {
+    text-align: center;
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+  #projects .filters-content .item:hover {
+    opacity: 0.75;
+  }
+  #projects .filters-content .item .p-inner {
+    padding: 20px 30px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  }
+  #projects .filters-content .item .p-inner h5 {
+    font-size: 15px;
+  }
+  #projects .filters-content .item .p-inner .cat {
+    font-size: 13px;
+  }
+  #projects .filters-content .item img {
+    width: 100%;
+  }
+  
+  #projects {
+    padding-top: 120px;
+  }
+  
+  #projects .section-heading {
+    margin-bottom: 60px;
+  }
+  
+  #projects .section-heading h6 {
+    color: #5fb759;
+  }
+  
+  
+  @media (max-width: 992px) {
+    #projects .filters ul li {
+      display: inline-block;
+      margin-right: 10px;
+      padding: 0px;
+    }
+    #projects .section-heading {
+      margin-bottom: 0px;
+    }
+  }
+
+
+  /*---------------------------------*/
+
+
+
 .zoom img {
 	max-width: 100%;
 	-moz-transition: all 0.3s;
@@ -114,8 +171,8 @@ a {
     border-radius: 4px;
     cursor: pointer;
 }
-
-.img01 span{
+/* Span -------------------*/
+.img01  span{
     color: #323231;
     max-width: 105%;
     overflow: hidden;
@@ -127,6 +184,63 @@ a {
     height: 4vh;
     background: #ffffffc7;
 }
+
+
+.img02  span{
+    color: #323231;
+    max-width: 105%;
+    overflow: hidden;
+    text-align: center;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    height: 4vh;
+    background: #ffffffc7;
+}
+
+.img03  span{
+    color: #323231;
+    max-width: 105%;
+    overflow: hidden;
+    text-align: center;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    height: 4vh;
+    background: #ffffffc7;
+}
+
+.img04  span{
+    color: #323231;
+    max-width: 105%;
+    overflow: hidden;
+    text-align: center;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    height: 4vh;
+    background: #ffffffc7;
+}
+
+.img05  span{
+    color: #323231;
+    max-width: 105%;
+    overflow: hidden;
+    text-align: center;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    height: 4vh;
+    background: #ffffffc7;
+}
+
+
+/* Span -------------------*/
+
 .img02
 {
     background-image: url("/img/pexels-steve-johnson-2863263.jpg");
@@ -1814,31 +1928,33 @@ a:focus {
     color: #ffffff;
 }
 
-.footer .footer-about,
-.footer .footer-link,
-.footer .footer-contact {
-    position: relative;
-    margin-bottom: 45px;
-    color: #999999;
+.atendimento
+{
+    display: flex;
+
 }
 
-.footer .footer-about h2,
-.footer .footer-link h2,
-.footer .footer-contact h2{
-    position: relative;
-    margin-bottom: 30px;
-    font-size: 25px;
-    font-weight: 600;
-    color: #aa9166;
+.atendimento .atendimento-h3 
+{
+    color: #ffffff;
 }
 
-.footer .footer-link a {
-    display: block;
-    margin-bottom: 10px;
-    color: #999999;
-    transition: .3s;
+.atendimento p
+{
+    
+padding: 10px;
+
 }
 
+.circle
+{
+
+    border-radius: 40%;
+    display: inline-block;
+    height: 2%;
+    width: 0px;
+    background-color: #ffffff;
+}
 .footer .footer-link a::before {
     position: relative;
     content: "\f105";

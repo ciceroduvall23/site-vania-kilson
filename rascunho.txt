@@ -722,3 +722,68 @@
                 </div>
             </div>
             <!-- Top Bar End -->
+
+
+
+
+               <div class="container footer-menu">
+                    <div class="f-menu">
+                        <a href="">Terms of use</a>
+                        <a href="">Privacy policy</a>
+                        <a href="">Cookies</a>
+                        <a href="">Help</a>
+                        <a href="">FQAs</a>
+                    </div>
+                </div>
+
+
+
+                       <div class="footer-contact">
+                                <h2>Atendimento</h2>
+                                <p><i class="fa fa-map-marker-alt"></i>123 Street, New York, USA</p>
+                                <p><i class="fa fa-phone-alt"></i>(32)98886-6265</p>
+                                <p><i class="fa fa-envelope"></i>vaniakilson@yahoo.com</p>
+                                <div class="footer-social">
+                                    <a href=""><i class="fab fa-twitter"></i></a>
+                                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a href=""><i class="fab fa-youtube"></i></a>
+                                    <a href=""><i class="fab fa-instagram"></i></a>
+                                    <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+
+
+                                  <div class="col-md-6 col-lg-4">
+                        
+                        </div>
+                        <div class="col-md-6 col-lg-8">
+                         
+                    </div>
+
+
+
+                    .footer .footer-about,
+.footer .footer-link,
+.footer .footer-contact {
+    position: relative;
+    margin-bottom: 45px;
+    color: #999999;
+}
+
+.footer .footer-about h2,
+.footer .footer-link h2,
+.footer .footer-contact h2{
+    position: relative;
+    margin-bottom: 30px;
+    font-size: 25px;
+    font-weight: 600;
+    color: #aa9166;
+}
+
+.footer .footer-link a {
+    display: block;
+    margin-bottom: 10px;
+    color: #999999;
+    transition: .3s;
+}
+
