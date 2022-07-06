@@ -122,6 +122,32 @@ a {
 
 }
 
+
+.band
+{
+    margin: 0 auto;
+    display: flex;
+    grid-gap: 46px;
+    justify-content: center;
+}
+
+
+.items
+{
+    border: solid 7px rgb(214, 218, 35);
+   
+}
+
+.items img
+{
+   
+    max-width: 250px;
+    height: 18em;
+}
+
+
+
+
 .teste{
      display: block;
      position: relative;
@@ -315,7 +341,7 @@ a:focus {
 .back-to-top {
     position: fixed;
     display: none;
-    background: #aa9166;
+    background: #72AEC3;
     color: #121518;
     width: 44px;
     height: 44px;
@@ -329,7 +355,7 @@ a:focus {
 }
 
 .back-to-top:hover {
-    color: #aa9166;
+    color: #72AEC3;
     background: #121518;
 }
 
@@ -355,7 +381,7 @@ a:focus {
 
 .top-bar .logo h1 {
     margin: 0;
-    color: #aa9166;
+    color: #72AEC3;
     font-size: 75px;
     line-height: 55px;
     font-weight: 800;
@@ -672,15 +698,15 @@ a:focus {
 /*******************************/
 .page-header {
     position: relative;
-    margin-bottom: 45px;
-    padding: 90px 0;
+    margin-bottom: 60px;
+    padding: 37px 0;
     text-align: center;
-    background: #aa9166;
+    background: #72AEC3;
 }
 
 .page-header h2 {
     position: relative;
-    color: #121518;
+    color: #ffffff;
     font-size: 60px;
     font-weight: 700;
     margin-bottom: 20px;
@@ -690,11 +716,11 @@ a:focus {
 .page-header h2::after {
     position: absolute;
     content: "";
-    width: 100px;
+    width: 8em;
     height: 2px;
-    left: calc(50% - 50px);
+    left: calc(30% - 12px);
     bottom: 0;
-    background: #121518;
+    background: #ffffff;
 }
 
 .page-header a {
@@ -1928,12 +1954,26 @@ a:focus {
     color: #ffffff;
 }
 
+.copyrightText{
+padding: 8px 40px;
+border-top: 1px solid rgba(0, 0, 0, 0.1);
+text-align: center;
+background: #161616;
+}
+
 .atendimento
 {
     display: flex;
+    margin: 0px 76px;
+    flex-direction: column;
 
 }
-
+.call-h3
+{
+    color: #ffffff; 
+    text-align: center;
+    margin-bottom: 56px;  
+}
 .atendimento .atendimento-h3 
 {
     color: #ffffff;
@@ -1946,7 +1986,7 @@ padding: 10px;
 
 }
 
-.circle
+/*.circle
 {
 
     border-radius: 40%;
@@ -1954,7 +1994,7 @@ padding: 10px;
     height: 2%;
     width: 0px;
     background-color: #ffffff;
-}
+}*/
 .footer .footer-link a::before {
     position: relative;
     content: "\f105";
