@@ -102,8 +102,8 @@ h3,
 h4,
 h5, 
 h6 {
-    font-family: 'EB Garamond', serif;
-    font-weight: 600;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 300;
     font-style: italic;
     color: #121518;
 }
@@ -155,12 +155,11 @@ a {
 }
 .div-infor
 {
-    background-color: #030303;
+    background-color: #2658b3;
     height: 3em;
     display: flex;
-    flex-wrap: wrap;
-    align-content: space-between;
-    justify-content: space-between;
+    align-content: center;
+    justify-content: center;
 
 }
 .div-infor p{
@@ -173,16 +172,48 @@ a {
    
 
 }
-.div-infor p:nth-child(1)  {
 
-    color: #ffffff ;
-    padding: 7px 9px;
-    font-size: 20px;
-    padding-top: 10px;
-    font-weight: 500;
-   
 
+/*------------------flex-videos*/
+
+.flex-videos 
+{
+    display: contents;
+    justify-content: center;
+    position: relative;
+    left: 18%;
+  
 }
+
+
+.flex-videos video
+{
+    max-width: 322px;
+    margin: 18px;
+}
+
+@media only screen and (max-width: 1200px) { 
+
+    .flex-videos 
+{
+    display: grid;
+    justify-content: center;
+    position: relative;
+    left: 0;
+  
+}
+
+
+.flex-videos video
+{
+    max-width: 450px;
+    margin: 18px;
+}
+    
+}
+
+
+/*-------------flex-videos--------------*/
 
 
 .img01
@@ -537,7 +568,7 @@ a:focus {
     
     .nav-bar,
     .nav-bar .navbar {
-        background: #121518 !important;
+        background: #2e2f30 !important;
         padding: 7px 18%;
     }
     
@@ -701,7 +732,7 @@ a:focus {
     margin-bottom: 60px;
     padding: 37px 0;
     text-align: center;
-    background: #72AEC3;
+    background: #2658b3;
 }
 
 .page-header h2 {
@@ -909,7 +940,10 @@ a:focus {
 .about .about-text p {
     font-size: 16px;
 }
-
+.about-text
+{
+        width: 100%; 
+}
 .about .about-text a.btn {
     position: relative;
     margin-top: 15px;
