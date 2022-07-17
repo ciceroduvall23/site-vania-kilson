@@ -119,6 +119,7 @@ a {
     font-size: 20px;
     font-weight: 500;
     text-align: left;
+    cursor: pointer;
 
 }
 
@@ -145,8 +146,21 @@ a {
     height: 18em;
 }
 
+@media only screen and (max-width: 1210px) { 
+    .band 
+    {
+        margin: 0 auto;
+        display: flex;
+        grid-gap: 46px;
+        justify-content: center;
+    }
 
+    .band .items img
+    {
+        max-width: 200px;
+    }
 
+}
 
 .teste{
      display: block;
@@ -212,6 +226,15 @@ a {
     
 }
 
+@media only screen and (max-width: 500px) {
+  
+    .flex-videos video
+    {
+        max-width: 300px;
+        margin: 18px;
+    }
+    
+  }
 
 /*-------------flex-videos--------------*/
 
@@ -754,6 +777,19 @@ a:focus {
     background: #ffffff;
 }
 
+@media only screen and (max-width: 500px) {
+    .page-header h2::after {
+        position: absolute;
+        content: "";
+        width: 8em;
+        height: 2px;
+        transform: translate(-42px, -7px);
+        bottom: 0;
+        background: #ffffff;
+    }
+   
+  }
+
 .page-header a {
     position: relative;
     padding: 0 12px;
@@ -943,7 +979,16 @@ a:focus {
 .about-text
 {
         width: 100%; 
+        text-align: center;
 }
+
+@media only screen and (max-width: 500px) {
+  
+    .about-text h3 {
+        font-size: 24px;
+    }
+   
+  }
 .about .about-text a.btn {
     position: relative;
     margin-top: 15px;
@@ -1520,6 +1565,15 @@ a:focus {
     padding: 45px 0;
 }
 
+@media only screen and (max-width: 500px) {
+  
+    .timeline h3 {
+        font-size: 22px;
+        width: 100%;
+    }
+    
+  }
+
 .timeline .timeline-start {
     position: relative;
     width: calc(100% + 30px);
@@ -1988,6 +2042,23 @@ a:focus {
     color: #ffffff;
 }
 
+@media only screen and (max-width: 500px) {
+    .footer {
+        position: relative;
+        
+        background: #121518;
+        color: #ffffff;
+    }
+
+    .atendimento
+{
+    display: flex;
+    margin: 0px 76px;
+    flex-direction: column;
+
+}
+   
+  }
 .copyrightText{
 padding: 8px 40px;
 border-top: 1px solid rgba(0, 0, 0, 0.1);
