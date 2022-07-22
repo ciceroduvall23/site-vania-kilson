@@ -1,0 +1,10 @@
+palheta de cores do site
+#FFFFFF --> branco
+
+#CCB3D2 --> Lilas
+
+#72AEC3 -> azul claro
+ 
+#FA99A3 -> rosa bebe
+
+#424446 --> preto
