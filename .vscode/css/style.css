@@ -67,12 +67,7 @@ body {
 
   /*---------------------------------*/
 
-  .text-telaspintadas
-  {
-    margin-bottom: 67px;
-    font-size: 30px;
-   
-  }
+
 
 .zoom img {
 	max-width: 100%;
@@ -114,7 +109,7 @@ h6 {
 }
 
 a {
-    color: #dfdfdf;
+    color: #454545;
     transition: .3s;
 }
 
@@ -179,21 +174,6 @@ a {
     display: flex;
     align-content: center;
     justify-content: center;
-   
-
-}
-
-@media only screen and (max-width: 620px) { 
-    .div-infor
-{
-    background-color: #2658b3;
-    height: 3em;
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    height: 5em;
-
-}
 
 }
 .div-infor p{
@@ -246,15 +226,6 @@ a {
     
 }
 
-@media only screen and (max-width: 500px) {
-  
-    .flex-videos video
-    {
-        max-width: 300px;
-        margin: 18px;
-    }
-    
-  }
 
 /*-------------flex-videos--------------*/
 
@@ -578,7 +549,7 @@ a:focus {
 
 .navbar-dark .navbar-nav .nav-link:hover,
 .navbar-dark .navbar-nav .nav-link.active {
-    color: #2658b3;;
+    color: #aa9166;
     transition: none;
 }
 
@@ -587,8 +558,6 @@ a:focus {
     border: 0;
     border-radius: 0;
     background: #f8f9fa;
-    top: 39px;
-    border-radius: 3px;
 }
 
 .nav-bar .btn {
@@ -775,7 +744,7 @@ a:focus {
 .page-header {
     position: relative;
     margin-bottom: 60px;
-    padding: 10px 0;
+    padding: 37px 0;
     text-align: center;
     background: #2658b3;
 }
@@ -783,9 +752,10 @@ a:focus {
 .page-header h2 {
     position: relative;
     color: #ffffff;
-    font-size: 28px;
+    font-size: 60px;
     font-weight: 700;
-   
+    margin-bottom: 20px;
+    padding-bottom: 5px;
 }
 
 .page-header h2::after {
@@ -795,21 +765,8 @@ a:focus {
     height: 2px;
     left: calc(30% - 12px);
     bottom: 0;
-    background: #ffffff00;
+    background: #ffffff;
 }
-
-@media only screen and (max-width: 500px) {
-    .page-header h2::after {
-        position: absolute;
-        content: "";
-        width: 8em;
-        height: 2px;
-        transform: translate(-42px, -7px);
-        bottom: 0;
-        background: #ffffff00;
-    }
-   
-  }
 
 .page-header a {
     position: relative;
@@ -839,7 +796,7 @@ a:focus {
 
 @media (max-width: 767.98px) {
     .page-header h2 {
-        font-size: 23px;
+        font-size: 35px;
     }
     
     .page-header a {
@@ -1002,14 +959,6 @@ a:focus {
         width: 100%; 
         text-align: center;
 }
-
-@media only screen and (max-width: 500px) {
-  
-    .about-text h3 {
-        font-size: 24px;
-    }
-   
-  }
 .about .about-text a.btn {
     position: relative;
     margin-top: 15px;
@@ -1586,15 +1535,6 @@ a:focus {
     padding: 45px 0;
 }
 
-@media only screen and (max-width: 500px) {
-  
-    .timeline h3 {
-        font-size: 22px;
-        width: 100%;
-    }
-    
-  }
-
 .timeline .timeline-start {
     position: relative;
     width: calc(100% + 30px);
@@ -2063,23 +2003,6 @@ a:focus {
     color: #ffffff;
 }
 
-@media only screen and (max-width: 500px) {
-    .footer {
-        position: relative;
-        
-        background: #121518;
-        color: #ffffff;
-    }
-
-    .atendimento
-{
-    display: flex;
-    margin: 0px 76px;
-    flex-direction: column;
-
-}
-   
-  }
 .copyrightText{
 padding: 8px 40px;
 border-top: 1px solid rgba(0, 0, 0, 0.1);
@@ -2087,45 +2010,11 @@ text-align: center;
 background: #161616;
 }
 
-@media only screen and (max-width: 768px) and (min-width: 500px) {
-    .atendimento
-    {
-        display: flex;
-        padding: 0px 23px;
-    
-    
-    }
-
-}
-
-@media only screen and (max-width: 1200px) {
-    .atendimento
-    {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        position: relative;
-        left: 29%;
-    
-    
-    }
-    .atendimento .atendimento-h3 
-    {
-        color: #ffffff;  
-        font-size: 20px;
-        margin-top: 9px;
-        padding: 0 20px;
-    
-    }
-    
-
-}
-
 .atendimento
 {
     display: flex;
-    padding: 0px 23px;
-
+    margin: 0px 76px;
+    flex-direction: column;
 
 }
 .call-h3
@@ -2136,11 +2025,7 @@ background: #161616;
 }
 .atendimento .atendimento-h3 
 {
-    color: #ffffff;  
-    font-size: 20px;
-    margin-top: 9px;
-    padding: 0 20px;
-
+    color: #ffffff;
 }
 
 .atendimento p
