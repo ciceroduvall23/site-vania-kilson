@@ -560,6 +560,7 @@ a:focus {
     padding: 10px 0;
     box-shadow: 0 2px 5px rgba(0, 0, 0, .3);
     z-index: 999;
+    
 }
 
 .nav-bar .navbar {
@@ -614,7 +615,7 @@ a:focus {
     .nav-bar,
     .nav-bar .navbar {
         background: #2e2f30 !important;
-        padding: 7px 18%;
+        padding: 7px 17%;
     }
     
     .nav-bar .navbar-brand {
