@@ -2135,6 +2135,7 @@ background: #161616;
         align-items: center;
         position: relative;
         margin: 0px 151px;
+        padding: 0 8px;
 
     
     }
@@ -2143,7 +2144,7 @@ background: #161616;
         color: #ffffff;  
         font-size: 20px;
         margin-top: 9px;
-        padding: 0 20px;
+        padding: 0 8px;
     
     }
     
@@ -2168,7 +2169,7 @@ background: #161616;
     color: #ffffff;
     font-size: 20px;
     margin-top: 9px;
-    padding: 0;
+    padding: 0 20px;
 
 }
 
