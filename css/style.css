@@ -2089,7 +2089,7 @@ text-align: center;
 background: #161616;
 }
 
-@media only screen and (max-width: 768px) and (min-width: 350px) {
+@media only screen and (max-width: 768px) and (min-width: 500px) {
     .atendimento
     {
         flex-direction: column;
@@ -2098,12 +2098,31 @@ background: #161616;
 
     
     }
+    .atendimento  h4
+    {
+        color: #ffffff;
+        font-size: 16px;
+        margin-top: 9px;
+        padding: 0;
+    
+    }
+
+}
+@media only screen and (max-width: 500px) and (min-width: 350px) {
+    .atendimento
+    {
+        flex-direction: column;
+    align-items: center;
+    margin: 22px;
+
+    
+    }
     .atendimento .atendimento-h3 
     {
-        color: #ffffff;  
-        font-size: 20px;
+        color: #ffffff;
+        font-size: 16px;
         margin-top: 9px;
-        padding: 0 20px;
+        padding: 0;
     
     }
 
@@ -2146,10 +2165,10 @@ background: #161616;
 }
 .atendimento .atendimento-h3 
 {
-    color: #ffffff;  
+    color: #ffffff;
     font-size: 20px;
     margin-top: 9px;
-    padding: 0 20px;
+    padding: 0;
 
 }
 
