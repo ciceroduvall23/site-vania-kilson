@@ -30,6 +30,26 @@ margin-bottom: 80px;
     width: 40%;
     margin-bottom: 80px;
 }
+
+@media (max-width:  500px) and (min-width: 300px)  {
+    .modelos-quadros img
+    {
+        width: 80%;
+        margin-bottom: 80px;
+    }
+
+}
+
+
+@media (max-width:  1000px) and (min-width: 500px)  {
+    .modelos-quadros img
+    {
+        width: 80%;
+        margin-bottom: 80px;
+    }
+
+}
+
 .lado-quadro .quadro
 {
     
@@ -84,8 +104,8 @@ background-color: #24121200;
     .lado-quadro
 {
      margin-bottom: 80px;
-    display: inline-grid;
-    width: 50%;
+     display: block;
+     width: 100%;
     cursor: pointer;
     
    
