@@ -319,11 +319,13 @@ a {
 }
 .div-infor
 {
-    background-color: #2658b3;
-    height: 3em;
+    /*background-color: #2658b3;*/
+    background-image: url('/img/Capturar\ logo\ 6.PNG');
+    
+    height: 12em;
+    background-repeat: no-repeat;
     display: flex;
-    align-content: center;
-    justify-content: center;
+    align-items: flex-end;
    
 
 }
