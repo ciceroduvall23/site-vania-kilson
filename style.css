@@ -231,9 +231,13 @@ background-color: #24121200;
     height: 263px;
     margin-bottom: 35px;
 }
-.item
+.item h3
 {
-    
+    text-align: center;
+    font-family: unset;
+    margin-bottom: 50px;
+    padding: 28px;
+    width: 100%;
 }
 @media (max-width: 1200px) and (min-width:994px) {
     .item
