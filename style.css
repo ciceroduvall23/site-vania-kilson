@@ -226,8 +226,7 @@ background-color: #24121200;
 }
 .item
 {
-    box-shadow: 8px 7px 7px 0px rgb(0 0 0 / 78%);
-    border: 2px solid #241212;
+    
     cursor: pointer;
     height: 263px;
     margin-bottom: 15px;
@@ -235,8 +234,7 @@ background-color: #24121200;
 @media (max-width: 1200px) and (min-width:994px) {
     .item
     {
-        box-shadow: 8px 7px 7px 0px rgb(0 0 0 / 78%);
-        border: 2px solid #241212;
+        
         cursor: pointer;
         height: 218px;
         margin-bottom: 15px;

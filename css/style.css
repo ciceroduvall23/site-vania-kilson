@@ -1,67 +1,100 @@
 /*******************************/
 /********* General CSS *********/
 /*******************************/
-.card {
-    --card-gradient: rgba(0, 0, 0, 0.8);
-    --card-gradient: #5e9ad9, #e271ad;
-   
-  
-    background-color: #fff;
-    border-radius: 0.5rem;
-    box-shadow: 0.05rem 0.1rem 0.3rem -0.03rem rgba(0, 0, 0, 0.45);
-    padding-bottom: 1rem;
-    background-image: linear-gradient(
-      var(--card-gradient),
-      white max(9.5rem, 27vh)
-    );
-    overflow: hidden;
-}
+
 
 text-content
 {
     color: #007bff;
 }
 
+/*                  */
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 0 10px;
+  }
+  
+  /* Remove extra left and right margins, due to padding */
+  .row-card {
+    margin: 0 -5px;
+   display: flex;
+   justify-content: center;
 
 
-@media (min-width: 1200px) {
-.imagens-originais img
-{
-  width:100%;
-
-  box-shadow: 8px 7px 7px 0px rgb(0 0 0 / 74%);
-  border: 2px solid #241212;
- 
 }
-.imagens-originais {
-    display: flex;
+.column h3{
+    text-align: center;
+    font-family: unset;
+    margin-bottom: 50px;
+    padding: 28px;
+    width: 100%;
+   }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .card-img img
+  {
+      max-width: 100%;
+  }
+  
+
+
+  
+  /* Style the counter cards */
+  .card-img {
+    box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
+    border: 2px solid #161616;
+    cursor: pointer;
+    
+  }
+
+
+
+
+/*  Responsive*/
+@media (max-width: 800px) and (min-width: 500px){
+    .row-card {
+        margin: 0;
+       display: grid;
+       justify-items: center;
+
+    }
+    .column {
+        width: 70%;
+        padding: 0;
+    }
+}
+
+@media (max-width: 500px) and (min-width: 300px){
+    .row-card {
+        margin: 0;
+       display: grid;
+       justify-items: center;
+
+    }
+    .column {
+        width: 50%;
+        padding: 0;
+    }
+}
+
+
+img {
+  
     width: 100%;
     
-}
-.imagens-originais a
-{
-    margin: 0px 24px;
-    position: relative;
-    left: 4%;
-    margin-bottom: 50px;
-}
-
-
-}
+  }
 
 
 
 
-    img {
-      border-radius: 0.5rem 0.5rem 0 0;
-      width: 100%;
-      
-
-      /*aspect-ratio: 4/3;
-      mix-blend-mode: var(--card-blend-mode);*/
-    
-  
-    }
     
     @media (min-width: 1500px)  {
         .carousel .carousel-item img {
@@ -104,7 +137,7 @@ body {
 {
     width: 100%;
     display: flex;
-    margin-bottom: 80px;
+    margin-bottom: 18px;
     justify-content: center;
   
 }
@@ -119,16 +152,16 @@ display: flex;
 .modelos-quadros img
 {
     float: left;
-    width: 32%;
+    width: 40%;
     border: thin solid;
-    padding: 28px;
+    padding: 90px;
     margin: 0px 10px 10px 0;
 }
 
 @media (max-width:  500px) and (min-width: 300px)  {
     .modelos-quadros img
     {
-        width: 40%;
+        width: 50%;
         margin-bottom: 80px;
     }
 
@@ -138,7 +171,7 @@ display: flex;
 @media (max-width:  1000px) and (min-width: 500px)  {
     .modelos-quadros img
     {
-        width: 40%;
+        width: 60%;
         margin-bottom: 80px;
     }
 
@@ -208,20 +241,16 @@ background-color: #24121200;
 }
 .item
 {
-    box-shadow: 8px 7px 7px 0px rgb(0 0 0 / 78%);
-    border: 2px solid #241212;
+    border: 2px solid #000000;
     cursor: pointer;
-    height: 263px;
-    margin-bottom: 15px;
+    margin-bottom: 47px;
 }
 @media (max-width: 1200px) and (min-width:994px) {
     .item
     {
-        box-shadow: 8px 7px 7px 0px rgb(0 0 0 / 78%);
-        border: 2px solid #241212;
-        cursor: pointer;
-        height: 218px;
-        margin-bottom: 15px;
+           border: 2px solid #000000;
+    cursor: pointer;
+    margin-bottom: 47px;
     }
 }
 /* ---------------------------------*/
@@ -281,7 +310,7 @@ background-color: #24121200;
 
   .text-telaspintadas
   {
-    margin-bottom: 10px;
+    
     font-size: 30px;
     text-align: center;
    
@@ -425,7 +454,7 @@ a {
 }
 .faixa-preta
 {
-    background-color: #2e2f30 !important;
+    background-color:  #0d0d0e !important;
     width: 100%;
     height: 3em;
 }
@@ -505,12 +534,20 @@ a {
 @media (min-width: 1250px){ 
 .flex-videos 
 {
-    display: block;
-    position: relative;
-    left: 4%;
+    display: flex;
+    justify-content: center;
 }
 }
 
+.videos-div
+{
+
+    background-color: #007bff;
+}
+.flex-videos h4
+{
+  text-align: center;
+}
 
 .flex-videos video
 {
@@ -935,7 +972,7 @@ a:focus {
 @media (min-width: 991px) {
    
     .nav-bar.nav-sticky {
-        padding: 10px 17%;
+        padding: 10px 28%;
     }
     
   .nav-bar{
@@ -985,7 +1022,7 @@ a:focus {
 .carousel {
     position: relative;
     width: 100%;
-    height: calc(108vh - 129px);
+    height: auto;
     margin: 0 auto;
     text-align: center;
     overflow: hidden;
@@ -1322,8 +1359,14 @@ a:focus {
 
 .about .about-img img {
     width: 160%;
-    height: 100%;
-    object-fit: contain;
+    height: auto;
+}
+
+@media  (max-width: 1600px) {
+    .about .about-img img {
+        width: 160%;
+        height: auto;
+    }
 }
 
 .about .about-text p {
@@ -1916,6 +1959,7 @@ a:focus {
 .timeline {
     position: relative;
     padding: 45px 0;
+    text-align: justify;
 }
 
 @media only screen and (max-width: 500px) {
