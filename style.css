@@ -229,7 +229,11 @@ background-color: #24121200;
     
     cursor: pointer;
     height: 263px;
-    margin-bottom: 15px;
+    margin-bottom: 35px;
+}
+.item
+{
+    
 }
 @media (max-width: 1200px) and (min-width:994px) {
     .item
@@ -237,7 +241,7 @@ background-color: #24121200;
         
         cursor: pointer;
         height: 218px;
-        margin-bottom: 15px;
+        margin-bottom: 35px;
     }
 }
 /* ---------------------------------*/
