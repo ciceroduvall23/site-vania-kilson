@@ -1,85 +1,106 @@
 /*******************************/
 /********* General CSS *********/
 /*******************************/
-.card {
-    --card-gradient: rgba(0, 0, 0, 0.8);
-    --card-gradient: #5e9ad9, #e271ad;
-   
-  
-    background-color: #fff;
-    border-radius: 0.5rem;
-    box-shadow: 0.05rem 0.1rem 0.3rem -0.03rem rgba(0, 0, 0, 0.45);
-    padding-bottom: 1rem;
-    background-image: linear-gradient(
-      var(--card-gradient),
-      white max(9.5rem, 27vh)
-    );
-    overflow: hidden;
-}
+
 
 text-content
 {
     color: #007bff;
 }
 
+/*                  */
 
-
-@media (min-width: 1200px) {
-.imagens-originais img
-{
+.column {
+    float: left;
+    width: 50%;
+    padding: 0 10px;
+  }
   
-    max-width: 100%;
-    max-height: 100%;
- 
- 
-}
-.imagens-originais {
-    display: flex;
-    justify-content: space-evenly;
-    width: 100%;
-   
-   
-    
-}
-.originais-div
-{
-    background-color: rgb(255, 255, 255);
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    border-width: 2px;
-    border-style: solid;
-    border-color: black;
-    border-image: initial;
-    margin: 17px;
-    padding: 22px;
+  /* Remove extra left and right margins, due to padding */
+  .row-card {
+    margin: 0 -5px;
+   display: flex;
+   justify-content: center;
+
 
 }
-/*
-.imagens-originais a
-{
-    margin: 0px 24px;
-    position: relative;
-    left: 4%;
+.column h3{
+    text-align: center;
+    font-family: unset;
     margin-bottom: 50px;
-}
-
-*/
-}
-
-
-
-
-    img {
-      border-radius: 0.5rem 0.5rem 0 0;
-      width: 100%;
-      
-
-      /*aspect-ratio: 4/3;
-      mix-blend-mode: var(--card-blend-mode);*/
-    
+    padding: 10px;
+    width: 100%;
+   }
   
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .card-img img
+  {
+      max-width: 100%;
+  }
+  
+
+
+  
+  /* Style the counter cards */
+  .card-img {
+    box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
+    border: 2px solid #161616;
+    cursor: pointer;
+    
+  }
+  .card-img-exóticas {
+    
+    cursor: pointer;
+    
+  }
+
+
+
+
+
+/*  Responsive*/
+@media (max-width: 800px) and (min-width: 500px){
+    .row-card {
+        margin: 0;
+       display: grid;
+       justify-items: center;
+
     }
+    .column {
+        width: 70%;
+        padding: 0;
+    }
+}
+
+@media (max-width: 500px) and (min-width: 300px){
+    .row-card {
+        margin: 0;
+       display: grid;
+       justify-items: center;
+
+    }
+    .column {
+        width: 50%;
+        padding: 0;
+    }
+}
+
+
+img {
+  
+    width: 100%;
+    
+  }
+
+
+
+
     
     @media (min-width: 1500px)  {
         .carousel .carousel-item img {
@@ -148,6 +169,13 @@ display: flex;
     {
         width: 50%;
         margin-bottom: 80px;
+    }
+    .modelos-quadros img {
+        float: left;
+        width: 40%;
+        border: thin solid;
+        padding: 20px;
+        margin: 0px 10px 10px 0;
     }
 
 }
@@ -226,26 +254,16 @@ background-color: #24121200;
 }
 .item
 {
-    
+    border: 2px solid #000000;
     cursor: pointer;
-    height: 263px;
-    margin-bottom: 35px;
-}
-.item h3
-{
-    text-align: center;
-    font-family: unset;
-    margin-bottom: 50px;
-    padding: 28px;
-    width: 100%;
+    margin-bottom: 47px;
 }
 @media (max-width: 1200px) and (min-width:994px) {
     .item
     {
-        
-        cursor: pointer;
-        height: 218px;
-        margin-bottom: 35px;
+           border: 2px solid #000000;
+    cursor: pointer;
+    margin-bottom: 47px;
     }
 }
 /* ---------------------------------*/
@@ -308,6 +326,7 @@ background-color: #24121200;
     
     font-size: 30px;
     text-align: center;
+    margin-bottom: 10px;
    
   }
   .Tamanho-telas
