@@ -48,12 +48,542 @@ text-content
 
   
   /* Style the counter cards */
-  .card-img {
+  .card-img-REF1333-1{
     box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
     border: 2px solid #161616;
     cursor: pointer;
+    width: 80%;
+    position: relative;
+    left: 2%;
     
   }
+  .card-imgREF1321
+  {
+    box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
+    border: 2px solid #161616;
+    cursor: pointer;
+    width: 125%;
+    position: relative;
+    left: -10%;
+    
+  
+
+  }
+
+  .card-imgREF1350
+  {
+    box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
+    border: 2px solid #161616;
+    cursor: pointer;
+    width: 156%;
+    position: relative;
+    left: -37%;
+  }
+    
+  .card-imgREF1332 
+  {
+    box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
+    border: 2px solid #161616;
+    cursor: pointer;
+    width: 155%;
+    position: relative;
+    left: -37%;
+
+  }
+  .card-imgREF1334
+  {
+    box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
+    border: 2px solid #161616;
+    cursor: pointer;
+    width: 126%;
+    position: relative;
+    left: -11%;
+
+  }
+  .card-imgREF1326 
+  {
+    box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
+    border: 2px solid #161616;
+    cursor: pointer;
+    width: 116%;
+    position: relative;
+    left: -22%;
+
+  }
+
+  .card-imgREF1336
+  {
+    box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
+    border: 2px solid #161616;
+    cursor: pointer;
+    width: 126%;
+    position: relative;
+    left: -11%;
+
+  }
+
+  .card-imgREF11345
+  {
+    box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
+    border: 2px solid #161616;
+    cursor: pointer;
+    width: 126%;
+    position: relative;
+    left: -11%;
+
+  }
+
+  .card-imgREF1347 
+  {
+    box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
+    border: 2px solid #161616;
+    cursor: pointer;
+    width: 126%;
+    position: relative;
+    left: -11%;
+
+  }
+
+  .card-imgREF1357
+  {
+    box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
+    border: 2px solid #161616;
+    cursor: pointer;
+    width: 126%;
+    position: relative;
+    left: -24%;
+
+  }
+
+
+  .card-imgREF1362
+  {
+    box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
+    border: 2px solid #161616;
+    cursor: pointer;
+    width: 160%;
+    position: relative;
+    left: -29%;
+
+  }
+
+
+
+  .card-imgREF1363 
+  {
+    box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
+    border: 2px solid #161616;
+    cursor: pointer;
+    width: 126%;
+    position: relative;
+    left: 0;
+
+  }
+
+  .card-imgREF1389 
+  {
+    box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
+    border: 2px solid #161616;
+    cursor: pointer;
+    width: 133%;
+    position: relative;
+    left: -20%;
+
+  }
+
+
+  .card-imgEF1391
+  {
+    box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
+    border: 2px solid #161616;
+    cursor: pointer;
+    width: 133%;
+    position: relative;
+    left: -15%;
+
+  }
+
+
+  .card-imgREF1392
+  {
+    box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
+    border: 2px solid #161616;
+    cursor: pointer;
+    width: 133%;
+    position: relative;
+    left: -10%;
+
+  }
+
+  .card-imgREF1398
+  {
+    box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
+    border: 2px solid #161616;
+    cursor: pointer;
+    width: 133%;
+    position: relative;
+    left: -22%;
+
+  }
+
+
+  .card-imgREF1399
+  {
+    box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
+    border: 2px solid #161616;
+    cursor: pointer;
+    width: 153%;
+    position: relative;
+    left: -20%;
+
+  }
+
+
+  .card-imgREF1400
+  {
+    box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
+    border: 2px solid #161616;
+    cursor: pointer;
+    width: 123%;
+    position: relative;
+    left: 2%;
+
+  }
+
+  .card-imgREF1401
+  {
+    box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
+    border: 2px solid #161616;
+    cursor: pointer;
+    width: 123%;
+    position: relative;
+    left: -25%;
+
+  }
+  .card-imgREF1403
+  {
+    box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
+    border: 2px solid #161616;
+    cursor: pointer;
+    width: 123%;
+    position: relative;
+    left: -30%;
+
+  }
+  .card-imgREF1404
+  {
+    box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
+    border: 2px solid #161616;
+    cursor: pointer;
+    width: 155%;
+    position: relative;
+    left: -35%;
+
+  }
+
+  .card-imgREF1317-1
+  {
+    box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
+    border: 2px solid #161616;
+    cursor: pointer;
+    width: 123%;
+    position: relative;
+    left: -10%;
+
+  }
+
+  .card-imgREF1317-2
+  {
+    box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
+    border: 2px solid #161616;
+    cursor: pointer;
+    width: 119%;
+    position: relative;
+    left: -10%;
+
+  }
+
+
+  .card-imgREF1319
+  {
+    box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
+    border: 2px solid #161616;
+    cursor: pointer;
+    width: 109%;
+    position: relative;
+    left: -10%;
+
+  }
+
+
+
+  .card-imgREF1324
+  {
+    box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
+    border: 2px solid #161616;
+    cursor: pointer;
+    width: 109%;
+    position: relative;
+    left: -10%;
+
+  }
+
+
+  .card-imgREF1325
+  {
+    box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
+    border: 2px solid #161616;
+    cursor: pointer;
+    width: 109%;
+    position: relative;
+    left: -10%;
+
+  }
+
+
+  .card-imgREF1327
+  {
+    box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
+    border: 2px solid #161616;
+    cursor: pointer;
+    width: 109%;
+    position: relative;
+    left: -10%;
+
+  }
+
+  .card-imgREF1328
+  {
+    box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
+    border: 2px solid #161616;
+    cursor: pointer;
+    width: 109%;
+    position: relative;
+    left: -10%;
+
+  }
+
+  .card-imgREF1330 
+  {
+    box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
+    border: 2px solid #161616;
+    cursor: pointer;
+    width: 135%;
+    position: relative;
+    left: -23%;
+
+  }
+
+
+  .card-imgREF1331
+  {
+    box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
+    border: 2px solid #161616;
+    cursor: pointer;
+    width: 109%;
+    position: relative;
+    left: -10%;
+
+  }
+
+
+  .card-imgREF1350-2
+  {
+    box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
+    border: 2px solid #161616;
+    cursor: pointer;
+    width: 128%;
+    position: relative;
+    left: 0%;
+
+  }
+
+  .card-imgREF1351
+  {
+    box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
+    border: 2px solid #161616;
+    cursor: pointer;
+    width: 118%;
+    position: relative;
+    left: 5%;
+
+  }
+
+  .card-imgREF1354-1
+  {
+    box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
+    border: 2px solid #161616;
+    cursor: pointer;
+    width: 90%;
+    position: relative;
+    left: 0%;
+
+  }
+
+
+  .card-imgREF1358
+  {
+    box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
+    border: 2px solid #161616;
+    cursor: pointer;
+    width: 128%;
+    position: relative;
+    left: 0%;
+
+  }
+
+  .card-imgREF1360
+  {  
+    box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
+    border: 2px solid #161616;
+    cursor: pointer;
+    width: 124%;
+    position: relative;
+    left: 0%;
+
+  }
+
+
+  .card-imgREF1361
+  {
+    box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
+    border: 2px solid #161616;
+    cursor: pointer;
+    width: 124%;
+    position: relative;
+    left: -5%;
+
+  }
+
+
+
+
+.card-imgREF1366
+{
+  box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
+  border: 2px solid #161616;
+  cursor: pointer;
+  width: 128%;
+  position: relative;
+  left: -5%;
+
+
+}
+
+.card-imgREF1369 
+{
+  box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
+  border: 2px solid #161616;
+  cursor: pointer;
+  width: 128%;
+  position: relative;
+  left: -5%;
+
+
+}
+
+.card-imgREF1371
+{
+  box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
+  border: 2px solid #161616;
+  cursor: pointer;
+  width: 128%;
+  position: relative;
+  left: -5%;
+
+}
+
+.card-imgREF1373
+{
+  box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
+  border: 2px solid #161616;
+  cursor: pointer;
+  width: 128%;
+  position: relative;
+  left: -10%;
+  margin-bottom: 10px;
+
+}
+
+
+.card-imgREF1321-3
+{
+  box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
+  border: 2px solid #161616;
+  cursor: pointer;
+  width: 90%;
+  position: relative;
+  left: -5%;
+
+}
+
+.card-imgREF1322 
+
+{
+  box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
+  border: 2px solid #161616;
+  cursor: pointer;
+  width:100%;
+  position: relative;
+  left: -10%;
+
+}
+
+.card-imgREF1333-2
+{
+  box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
+  border: 2px solid #161616;
+  cursor: pointer;
+  width: 90%;
+  position: relative;
+  left: -5%;
+
+}
+
+.card-imgREF1339a
+
+{
+  box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
+  border: 2px solid #161616;
+  cursor: pointer;
+  width:90%;
+  position: relative;
+  left: -10%;
+
+}
+
+.card-imgREF1339b 
+
+{
+  box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
+  border: 2px solid #161616;
+  cursor: pointer;
+  width:90%;
+  position: relative;
+  left: -10%;
+
+}
+
+.card-imgREF1386
+
+{
+  box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
+  border: 2px solid #161616;
+  cursor: pointer;
+  width:90%;
+  position: relative;
+  left: -10%;
+
+}
+
+
+.card-img {
+    width: 80%;
+    box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
+    border: 2px solid #161616;
+    cursor: pointer;
+}
+
   .card-img-exóticas {
     
     cursor: pointer;
@@ -99,7 +629,7 @@ img {
   }
 
 
-
+  carousel-item active
 
     
     @media (min-width: 1500px)  {
@@ -127,6 +657,11 @@ img {
   }
   
    
+  .sobre-artista
+{
+
+    MARGIN-TOP: -26px; 
+}
 
 body {
     color: #666666;
@@ -145,6 +680,7 @@ body {
     display: flex;
     margin-bottom: 50px;
     justify-content: center;
+    MARGIN-TOP: -66px;
   
 }
 .modelos-quadros
@@ -209,7 +745,7 @@ display: flex;
 .lado-quadro img
 {
     width: 100%;
-    height: 40vh;
+    height: 52vh;
    
 
 }
@@ -320,20 +856,42 @@ background-color: #24121200;
 
   /*---------------------------------*/
 
+  .sub-consulta h3 h4
+  {
+   
+    display: flex;
+    margin: 0;
+    text-align: center;
+    width: 10%;
+justify-content:space-between
+  }
+
   .text-telaspintadas
   {
     
     font-size: 30px;
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 25px;
    
   }
   .Tamanho-telas
   {
     font-size: 37px;
     font-weight: 600;
+    margin-top: 28px;
     text-align: center;
     margin-bottom: 43px;
+  }
+
+  .Tamanho-telash3
+  {
+
+    text-align: center;
+    font-family: unset;
+    margin-bottom: 26px;
+    padding: 5px;
+    font-size: 30px;
+    width: 100%;
   }
 
 .zoom img {
@@ -493,8 +1051,8 @@ a {
 @media only screen and (min-width: 1300px) { 
     .div-infor img
     {
-        width: 85%;
-        height: 350px;
+        width:100%;
+        height: 450px;
         background-repeat: no-repeat;
         display: flex;
         align-items: center;
@@ -561,6 +1119,7 @@ a {
 .flex-videos h4
 {
   text-align: center;
+  margin-top: -18px;
 }
 
 .flex-videos video
@@ -1064,6 +1623,12 @@ a:focus {
     }
 }
 
+
+.carousel .carousel-item img {
+    width: 80%;
+    height:530px;
+   
+}
 
 
 @media (max-width:1200px) {  
