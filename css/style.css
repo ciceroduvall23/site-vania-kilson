@@ -1964,13 +1964,13 @@ a:focus {
 @media (min-width: 991px) {
    
     .nav-bar.nav-sticky {
-        padding: 10px 28%;
+        padding: 20px 28%;
     }
     
   .nav-bar{
     position: relative;
     background-color: #2e2f30 !important;
-    padding: 6px 26%;
+    padding: 20px 28%;
     height: 60px;
     
 
