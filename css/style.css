@@ -44,6 +44,28 @@ text-content
       max-width: 100%;
   }
   
+  .img-div
+
+  {
+    width: 100%;
+    position: relative;
+    left: 0%;
+    background-color: #2e2f30;
+  }
+
+  @media (max-width: 1500px){
+  .img-div img{
+    width: 100%;
+
+  }
+}
+
+@media (min-width: 1500px){
+    .img-div img{
+        width: 70%;
+        height: 50vh;
+    }
+  }
 
 
   
@@ -576,421 +598,6 @@ text-content
 
 }
 
-.card-img-exóticas1315{
-    cursor: pointer;
-    width: 240%;
-    position: relative;
-    left: -63%;
-
-}
-
-.card-img-exóticas1316{
-    
-    cursor: pointer;
-    width: 200%;
-    position: relative;
-    left: -49%;
-    
-    }
-
-    
-    .card-img-exóticas1320{
-     
-        cursor: pointer;
-        width: 220%;
-        position: relative;
-        left: -55%;
-        
-        }
-
-        .card-img-exóticas1337{
-     
-            cursor: pointer;
-            width: 225%;
-            position: relative;
-            left: -65%;
-            
-            }
-
-
-            .card-img-exóticas1341{
-     
-                cursor: pointer;
-                width: 60%;
-                position: relative;
-                left: 30%;
-                
-                }
-
-
-                .card-img-exóticas1341b{
-     
-                    cursor: pointer;
-                    width: 60%;
-                    position: relative;
-                    left: -10%;
-                    
-                    }
-
-                    .card-img-exóticas1343{
-     
-                        cursor: pointer;
-                        width: 160%;
-                        position: relative;
-                        left: -10%;
-                        
-                        }
-        
-                        
-                .card-img-exóticas1346{
-     
-                    cursor: pointer;
-                    width: 60%;
-                    position: relative;
-                    left: 40%;
-                    
-                    }
-        
-
-
-                    
-                .card-img-exóticas1387{
-     
-                    cursor: pointer;
-                    width: 240%;
-                    position: relative;
-                    left: -70%;
-                    
-                    }
-
-                    .card-img-exóticas1388{
-     
-                        cursor: pointer;
-                        width: 240%;
-                        position: relative;
-                        left: -70%;
-                        
-                        }
-
-                        .card-img-exóticas1394{
-     
-                            cursor: pointer;
-                            width: 80%;
-                            position: relative;
-                            left: 0%;
-                            
-                            }
-
-
-                            .card-img-exóticas1395{
-     
-                                cursor: pointer;
-                                width: 80%;
-                                position: relative;
-                                left: 0%;
-                                
-                                }
-                                .card-img1375{
-                                    box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
-                                    border: 2px solid #161616;
-                                    cursor: pointer;
-                                    width: 140%;
-                                    position: relative;
-                                    left: -20%;
-                                    
-                                    }
-                                    .card-img1376{
-                                        box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
-                                        border: 2px solid #161616;
-                                        cursor: pointer;
-                                        width: 80%;
-                                        position: relative;
-                                        left: 0%;
-                                        
-                                        }
-                                        .card-img1379{
-                                            box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
-                                            border: 2px solid #161616;
-                                            cursor: pointer;
-                                            width: 165%;
-                                            position: relative;
-                                            left: -40%;
-                                            
-                                            }
-
-                                            .card-img1406{
-                                                box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
-                                                border: 2px solid #161616;
-                                                cursor: pointer;
-                                                width: 100%;
-                                                position: relative;
-                                                left: 0%;
-                                                
-                                                }
-                                
-                                                
-                                                .card-img1407{
-                                                    box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
-                                                    border: 2px solid #161616;
-                                                    cursor: pointer;
-                                                    width: 100%;
-                                                    position: relative;
-                                                    left: 0%;
-                                                    
-                                                    }
-                                
-                                                    
-                                                    .card-img1408{
-                                                        box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
-                                                        border: 2px solid #161616;
-                                                        cursor: pointer;
-                                                        width: 100%;
-                                                        position: relative;
-                                                        left: 0%;
-                                                        
-                                                        }
-                                            
-                                                        .card-img1410{
-                                                            box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
-                                                            border: 2px solid #161616;
-                                                            cursor: pointer;
-                                                            width: 62%;
-                                                            position: relative;
-                                                            left: 20%;
-                                                            
-                                                            }
-
-
-                                                            .card-img1411{
-                                                                box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
-                                                                border: 2px solid #161616;
-                                                                cursor: pointer;
-                                                                width: 62%;
-                                                                position: relative;
-                                                                left: 20%;
-                                                                
-                                                                }
-                                
-                                                                .card-img1382-1 {
-                                                                    box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
-                                                                    border: 2px solid #161616;
-                                                                    cursor: pointer;
-                                                                    width: 50%;
-                                                                    position: relative;
-                                                                    left: 20%;
-                                                                    
-                                                                    }
-                                                                    .card-img1382-2 {
-                                                                        box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
-                                                                        border: 2px solid #161616;
-                                                                        cursor: pointer;
-                                                                        width: 50%;
-                                                                        position: relative;
-                                                                        left: 20%;
-                                                                        
-                                                                        }
-
-                                                                        .card-img1412 {
-                                                                            box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
-                                                                            border: 2px solid #161616;
-                                                                            cursor: pointer;
-                                                                            width: 100%;
-                                                                            position: relative;
-                                                                            left: 20%;
-                                                                            
-                                                                            }
-
-                                                                            .card-img1413 {
-                                                                                box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
-                                                                                border: 2px solid #161616;
-                                                                                cursor: pointer;
-                                                                                width: 100%;
-                                                                                position: relative;
-                                                                                left: 20%;
-                                                                                
-                                                                                }
-                                                                                .card-img1414 {
-                                                                                    box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
-                                                                                    border: 2px solid #161616;
-                                                                                    cursor: pointer;
-                                                                                    width: 100%;
-                                                                                    position: relative;
-                                                                                    left: 20%;
-                                                                                    
-                                                                                    }
-
-                                                                                    .card-img1417 {
-                                                                                        box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
-                                                                                        border: 2px solid #161616;
-                                                                                        cursor: pointer;
-                                                                                        width: 120%;
-                                                                                        position: relative;
-                                                                                        left: 0%;
-                                                                                        
-                                                                                        }
-
-
-
-                                                                                        .card-img1423 {
-                                                                                            box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
-                                                                                            border: 2px solid #161616;
-                                                                                            cursor: pointer;
-                                                                                            width: 100%;
-                                                                                            position: relative;
-                                                                                            left: 0%;
-                                                                                            
-                                                                                            }
-
-
-
-
-                                                                                            .card-img1424 {
-                                                                                                box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
-                                                                                                border: 2px solid #161616;
-                                                                                                cursor: pointer;
-                                                                                                width: 100%;
-                                                                                                position: relative;
-                                                                                                left: 0%;
-                                                                                                
-                                                                                                }
-
-                                                                                                .card-img1427 {
-                                                                                                    box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
-                                                                                                    border: 2px solid #161616;
-                                                                                                    cursor: pointer;
-                                                                                                    width: 120%;
-                                                                                                    position: relative;
-                                                                                                    left: -10%;
-                                                                                                    
-                                                                                                    }
-
-
-                                                                                                    .card-img1434 {
-                                                                                                        box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
-                                                                                                        border: 2px solid #161616;
-                                                                                                        cursor: pointer;
-                                                                                                        width: 100%;
-                                                                                                        position: relative;
-                                                                                                        left: 0%;
-                                                                                                        
-                                                                                                        }
-
-                                                                                                        .card-img1434-2 {
-                                                                                                            box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
-                                                                                                            border: 2px solid #161616;
-                                                                                                            cursor: pointer;
-                                                                                                            width: 100%;
-                                                                                                            position: relative;
-                                                                                                            left: 0%;
-                                                                                                            
-                                                                                                            }
-
-                                                                                                            .card-img1440 {
-                                                                                                                box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
-                                                                                                                border: 2px solid #161616;
-                                                                                                                cursor: pointer;
-                                                                                                                width: 105%;
-                                                                                                                position: relative;
-                                                                                                                left: 0%;
-                                                                                                                
-                                                                                                                }
-
-                                                                                                                .card-img1440-2 {
-                                                                                                                    box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
-                                                                                                                    border: 2px solid #161616;
-                                                                                                                    cursor: pointer;
-                                                                                                                    width: 105%;
-                                                                                                                    position: relative;
-                                                                                                                    left: 0%;
-                                                                                                                    
-                                                                                                                    }
-
-                                                                                                                    .card-img1444 {
-                                                                                                                        box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
-                                                                                                                        border: 2px solid #161616;
-                                                                                                                        cursor: pointer;
-                                                                                                                        width: 100%;
-                                                                                                                        position: relative;
-                                                                                                                        left: 0%;
-                                                                                                                        
-                                                                                                                        }
-
-
-                                                                                                                        .card-img1447-3 {
-                                                                                                                            box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
-                                                                                                                            border: 2px solid #161616;
-                                                                                                                            cursor: pointer;
-                                                                                                                            width: 80%;
-                                                                                                                            position: relative;
-                                                                                                                            left: -20%;
-                                                                                                                            
-                                                                                                                            }
-
-
-                                                                                                                            .card-img1447-4 {
-                                                                                                                                box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
-                                                                                                                                border: 2px solid #161616;
-                                                                                                                                cursor: pointer;
-                                                                                                                                width: 80%;
-                                                                                                                                position: relative;
-                                                                                                                                left: -65%;
-                                                                                                                                
-                                                                                                                                }
-
-                                                                                                                        .card-img1448 {
-                                                                                                                            box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
-                                                                                                                            border: 2px solid #161616;
-                                                                                                                            cursor: pointer;
-                                                                                                                            width: 230%;
-                                                                                                                            position: relative;
-                                                                                                                            left: -110%;
-                                                                                                                            
-                                                                                                                            }
-
-
-
-                                                                                                                            .card-img1449-1 {
-                                                                                                                                box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
-                                                                                                                                border: 2px solid #161616;
-                                                                                                                                cursor: pointer;
-                                                                                                                                width: 50%;
-                                                                                                                                position: relative;
-                                                                                                                                left: 25%;
-                                                                                                                                
-                                                                                                                                }
-
-
-                                                                                                                                .card-img1449-2 {
-                                                                                                                                    box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
-                                                                                                                                    border: 2px solid #161616;
-                                                                                                                                    cursor: pointer;
-                                                                                                                                    width: 53%;
-                                                                                                                                    position: relative;
-                                                                                                                                    left: 0%;
-                                                                                                                                    
-                                                                                                                                    }
-
-
-
-                                                                                                                                    .card-img1450-1 {
-                                                                                                                                        box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
-                                                                                                                                        border: 2px solid #161616;
-                                                                                                                                        cursor: pointer;
-                                                                                                                                        width: 50%;
-                                                                                                                                        position: relative;
-                                                                                                                                        left: 30%;
-                                                                                                                                        
-                                                                                                                                        }
-
-                                                                                                                                        .card-img1450-2 {
-                                                                                                                                            box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
-                                                                                                                                            border: 2px solid #161616;
-                                                                                                                                            cursor: pointer;
-                                                                                                                                            width: 50%;
-                                                                                                                                            position: relative;
-                                                                                                                                            left: 0%;
-                                                                                                                                            
-                                                                                                                                            }
 
 .card-img {
     width: 80%;
@@ -1070,12 +677,7 @@ img {
     padding-left: 1rem;
     padding-right: 1rem;
   }
-  .row-cardexoticas
-  {
-    margin: 0;
-    display: grid;
-    justify-items: center;
-  }
+  
    
   .sobre-artista
 {
@@ -1165,7 +767,8 @@ display: flex;
 .lado-quadro img
 {
     width: 100%;
-    height: 67vh;   
+    height: 52vh;
+   
 
 }
 
@@ -1915,7 +1518,7 @@ a:focus {
 .navbar-dark .navbar-nav .nav-link:hover,
 .navbar-dark .navbar-nav .nav-link.active {
    /* color: #111111;;*/
-    transition: none;
+   /* transition: none;*/
 }
 
 .nav-bar .dropdown-menu {
@@ -1954,7 +1557,7 @@ a:focus {
         margin-bottom: -23px;
         white-space: nowrap;
         text-overflow: ellipsis;
-        transform: translate(-77px, -13px);
+        /*transform: translate(-77px, -13px);*/
       
     }
   
@@ -1964,13 +1567,13 @@ a:focus {
 @media (min-width: 991px) {
    
     .nav-bar.nav-sticky {
-        padding: 20px 28%;
+        padding: 10px 28%;
     }
     
   .nav-bar{
     position: relative;
     background-color: #2e2f30 !important;
-    padding: 20px 28%;
+    padding: 6px 26%;
     height: 60px;
     
 
@@ -2033,27 +1636,49 @@ a:focus {
     height: 100%;
 }
 
+.carousel-inner
+{
+    position: relative;
+    width: 100% !important;
+}
 
-
-@media (max-width:1200px) {  
+@media (min-width:1400px) {  
     .carousel .carousel-item img {
-        width: 100%;
+        width: 80%;
        
     }
 }
 
 
 .carousel .carousel-item img {
-    width: 80%;
-    height:530px;
+    width: 100%;
+    height:730px;
    
+}
+
+.carousel-control-next, .carousel-control-prev {
+    position: absolute;
+    top: 250px;
+    bottom: 0;
+    z-index: 1;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 10%;
+    color: #fff;
+    text-align: center;
+    opacity: .5;
+    transition: opacity .15s ease;
 }
 
 
 @media (max-width:1200px) {  
     .carousel-control-next, .carousel-control-prev {
         position: absolute;
-        top: 0;
+        top: 250px;
         bottom: 0;
         z-index: 1;
         display: -ms-flexbox;
@@ -3521,7 +3146,7 @@ background: #161616;
         flex-direction: column;
         align-items: center;
         position: relative;
-        left: 26%;
+        left: 0%;
 
     
     }
