@@ -1,6 +1,4 @@
-/*******************************/
-/********* General CSS *********/
-/*******************************/
+
 
 
 text-content
@@ -8,7 +6,6 @@ text-content
     color: #007bff;
 }
 
-/*                  */
 
 .column {
     float: left;
@@ -862,38 +859,38 @@ text-content
          
             }
 
-            .card-img1413{
+.card-img1413{
 
-                box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
-                border: 2px solid #161616;
-                cursor: pointer;
-               
-             
-                }
+box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
+border: 2px solid #161616;
+cursor: pointer;
 
 
-                .card-img1414{
-
-                    box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
-                    border: 2px solid #161616;
-                    cursor: pointer;
-                   
-                 
-                    }
+}
 
 
-                    .card-img1417{
+.card-img1414{
 
-                        box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
-                        border: 2px solid #161616;
-                        cursor: pointer;
-                        
-                        width: 132%;
-                        position: relative;
-                        left: -21%;
-                       
-                     
-                        }
+box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
+border: 2px solid #161616;
+cursor: pointer;
+
+
+}
+
+
+.card-img1417{
+
+box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
+border: 2px solid #161616;
+cursor: pointer;
+
+width: 132%;
+position: relative;
+left: -21%;
+
+
+}
 
     .h31418
 {
@@ -917,124 +914,171 @@ text-content
 
 .card-img1423{
 
+box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
+border: 2px solid #161616;
+cursor: pointer;
+
+
+}
+
+
+.card-img1424{
+
+box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
+border: 2px solid #161616;
+cursor: pointer;
+
+
+}
+
+
+.card-img1427{
+
+box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
+border: 2px solid #161616;
+cursor: pointer;
+width: 132%;
+position: relative;
+left: -21%;
+
+}
+.card-img1434-1{
+
+box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
+border: 2px solid #161616;
+cursor: pointer;
+
+
+}
+
+.card-img1434-2{
+
+box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
+border: 2px solid #161616;
+cursor: pointer;
+
+
+}
+
+
+.card-img1440{
+
+box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
+border: 2px solid #161616;
+cursor: pointer;
+
+
+}
+
+.card-img1440-2{
+
+box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
+border: 2px solid #161616;
+cursor: pointer;
+
+
+}
+
+.card-img1444{
+
+box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
+border: 2px solid #161616;
+cursor: pointer;
+
+
+}
+
+.card-img1447-1{
+
+box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
+border: 2px solid #161616;
+cursor: pointer;
+
+
+}
+
+.card-img1447-3{
+
+box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
+border: 2px solid #161616;
+cursor: pointer;
+width: 89%;
+position: relative;
+left: -14%;
+
+
+}
+
+
+
+.card-img1447-4{
+
+box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
+border: 2px solid #161616;
+cursor: pointer;
+width: 91%;
+position: relative;
+left: -52%;
+
+
+}
+.card-img1448{
+
     box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
     border: 2px solid #161616;
     cursor: pointer;
-   
- 
-    }
-
+    width: 214%;
+    position: relative;
+    left: -100%;
     
-    .card-img1424{
-
-        box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
-        border: 2px solid #161616;
-        cursor: pointer;
-       
-     
-        }
-
-        
-        .card-img1427{
-
-            box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
-            border: 2px solid #161616;
-            cursor: pointer;
-            width: 132%;
-            position: relative;
-            left: -21%;
-         
-            }
-            .card-img1434-1{
-
-                box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
-                border: 2px solid #161616;
-                cursor: pointer;
-               
-             
-                }
-
-                .card-img1434-2{
-
-                    box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
-                    border: 2px solid #161616;
-                    cursor: pointer;
-                   
-                 
-                    }
+}
+.card1449{
+    box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
+    border: 2px solid #161616;
+    cursor: pointer;
+    width: 80%;
+    position: relative;
+    left: 22%;
+    
+}
 
 
-                    .card-img1440{
+.card-img1449-2{
 
-                        box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
-                        border: 2px solid #161616;
-                        cursor: pointer;
-                       
-                     
-                        }
+    box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
+    border: 2px solid #161616;
+    cursor: pointer;
+    width: 88%;
+    position: relative;
+    left: 0;
+    
+}
 
-                        .card-img1440-2{
 
-                            box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
-                            border: 2px solid #161616;
-                            cursor: pointer;
-                           
-                         
-                            }
+.card-img1450-1{
 
-                            .card-img1444{
+    box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
+    border: 2px solid #161616;
+    cursor: pointer;
+    width: 80%;
+    position: relative;
+    left: 22%;
+    
+}
 
-                                box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
-                                border: 2px solid #161616;
-                                cursor: pointer;
-                               
-                             
-                                }
 
-                                .card-img1447-1{
+.card-img1450-2{
 
-                                    box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
-                                    border: 2px solid #161616;
-                                    cursor: pointer;
-                                   
-                                 
-                                    }
+    box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
+    border: 2px solid #161616;
+    cursor: pointer;
+    width: 80%;
+    position: relative;
+    left: 0;
+    
+}
 
-                                    .card-img1447-3{
-
-                                        box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
-                                        border: 2px solid #161616;
-                                        cursor: pointer;
-                                        width: 89%;
-                                        position: relative;
-    left: -14%;
-                                       
-                                     
-                                        }
-
-                                        .card-img1447-4{
-
-                                            box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
-                                            border: 2px solid #161616;
-                                            cursor: pointer;
-                                            width: 91%;
-                                            position: relative;
-                                            left: -52%;
-                                           
-                                         
-                                            }
-                                            .card-img1448{
-
-                                                box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
-                                                border: 2px solid #161616;
-                                                cursor: pointer;
-                                                width: 214%;
-                                                position: relative;
-                                                left: -277px;
-                                             
-                                            }
-
-                                            .h31447-3
+.h31447-3
 {
     position: relative;
     left: -57px;
@@ -1074,7 +1118,19 @@ text-content
   }
 
 
+  @media (max-width: 800px) and (min-width: 500px){
+    .card-img1448{
 
+        box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
+        border: 2px solid #161616;
+        cursor: pointer;
+        width: 214%;
+        position: relative;
+        left: 0%;
+        
+    }
+  
+}
 
 
 /*  Responsive*/
@@ -1111,20 +1167,6 @@ img {
     
   }
 
-
-  carousel-item active
-
-    
-    @media (min-width: 1500px)  {
-        .carousel .carousel-item img {
-            width: 80%;
-            height: 100%;
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-            position: relative;
-        }
-}
   
   .card-wrapper {
     list-style: none;
