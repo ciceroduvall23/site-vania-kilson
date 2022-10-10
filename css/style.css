@@ -2114,16 +2114,24 @@ left: -52%;
 }
 
 @media (max-width: 500px) and (min-width: 300px)
-{
+{  
+    .row-cardexoticas
+    {
+        display: grid;
+    }
+    
+  
+   
     .card-img-REF1333-1{
         box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
         border: 2px solid #161616;
         cursor: pointer;
-        width: 116%;
+        width: 189%;
         position: relative;
-        left: 0%;
+        left: 3%;
         
       }
+     
       .card-imgREF1321
       {
         box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
@@ -2647,10 +2655,11 @@ left: -52%;
     
     {
     
+    
       cursor: pointer;
-      width:150%;
-      position: relative;
-      left: -40%;
+        width: 184%;
+        position: relative;
+        left: 23%;
     
     }
     
@@ -2658,9 +2667,9 @@ left: -52%;
     
     {
         cursor: pointer;
-        width:150%;
+        width:170%;
         position: relative;
-        left: -10%;
+        left: 23%;
     
     }
     
@@ -2669,53 +2678,55 @@ left: -52%;
     {
      
       cursor: pointer;
-      width:160%;
+      width: 193%;
       position: relative;
-      left: -90%;
+      left: 20%;
     
     }
     
     .card-img-exóticas1337{
     
         cursor: pointer;
-        width:160%;
+        width: 190%;
         position: relative;
-        left: -30%;
+        left: 20%;
     }
     
     
     .card-img-exóticas1341{
     
         cursor: pointer;
-        width:160%;
+        width: 128%;
         position: relative;
-        left: 34%;
+        left: 0%;
     }
     
     
     .card-img-exóticas1341b{
     
         cursor: pointer;
-        width:160%;
+        width: 128%;
         position: relative;
-        left: 34%;
+        left: 0%;
     }
     
     .card-img-exóticas1343{
         cursor: pointer;
-        width: 405%;
+
+        width: 168%;
         position: relative;
-        left: -375%;
-        top: 58px;
+        left: -46px;
+        top: 0;
+    
     
     }
     
     .card-img-exóticas1346{
     
         cursor: pointer;
-        width: 200%;
+        width: 140%;
         position: relative;
-        left: -78%;
+        left: -5px;
         top: 58px;
     }
     
@@ -2731,17 +2742,17 @@ left: -52%;
         cursor: pointer;
         width: 172%;
         position: relative;
-        left: -35%;
+        left: -19%;
         top: 58px;
     }
     
     .card-img-exóticas1388{
     
         cursor: pointer;
-        width: 100%;
+        width: 210%;
         position: relative;
-        left: 0%;
-        top: 58px;
+        left: -39%;
+        top: 60px;
     
     }
     
@@ -2760,8 +2771,8 @@ left: -52%;
         width: 100%;
         position: relative;
         left: 0%;
-        top: 58px;
-        margin-bottom: 147px;
+        top: -31px;
+        margin-bottom: 0;
     }
     
     .card-img1375 {
