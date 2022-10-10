@@ -2562,20 +2562,28 @@ left: -52%;
       box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
       border: 2px solid #161616;
       cursor: pointer;
-      width: 128%;
+      width: 147%;
       position: relative;
-      left: -5%;
+      left: -12%;
+  
     
     }
+    .card-imgREF1371 h3
+
+{
+    position: relative;
+    left: -200%;
+
+}
     
     .card-imgREF1373
     {
       box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
       border: 2px solid #161616;
       cursor: pointer;
-      width: 128%;
+      width: 205%;
       position: relative;
-      left: -10%;
+      left: -36%;
       margin-bottom: 10px;
     
     }
@@ -2586,9 +2594,9 @@ left: -52%;
       box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
       border: 2px solid #161616;
       cursor: pointer;
-      width: 90%;
-      position: relative;
-      left: -5%;
+      width: 144%;
+    position: relative;
+    left: -13%;
     
     }
     
@@ -2598,9 +2606,9 @@ left: -52%;
       box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
       border: 2px solid #161616;
       cursor: pointer;
-      width:100%;
+      width: 137%;
       position: relative;
-      left: -10%;
+      left: -16%;
     
     }
     
@@ -2609,9 +2617,9 @@ left: -52%;
       box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
       border: 2px solid #161616;
       cursor: pointer;
-      width: 90%;
+      width: 144%;
       position: relative;
-      left: -5%;
+      left: -13%;
     
     }
     
@@ -2621,9 +2629,9 @@ left: -52%;
       box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
       border: 2px solid #161616;
       cursor: pointer;
-      width:90%;
+      width: 144%;
       position: relative;
-      left: -10%;
+      left: -13%;
     
     }
     
@@ -2633,9 +2641,9 @@ left: -52%;
       box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
       border: 2px solid #161616;
       cursor: pointer;
-      width:90%;
-      position: relative;
-      left: -10%;
+      width: 144%;
+    position: relative;
+    left: -13%;
     
     }
     
@@ -2645,10 +2653,17 @@ left: -52%;
       box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
       border: 2px solid #161616;
       cursor: pointer;
-      width:90%;
+      width: 144%;
       position: relative;
-      left: 0%;
+      left: -13%;
     
+    }
+    hr {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        width: 117%;
+        border: 0;
+        border-top: 1px solid rgba(0,0,0,.1);
     }
     
     .card-img-exóticas1315
