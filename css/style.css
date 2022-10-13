@@ -1100,25 +1100,32 @@ left: -52%;
 
 /* Resposive imagens quadros  para telas menores */
 @media (max-width: 800px) and (min-width: 500px)
-{
+{  
+    .row-cardexoticas
+    {
+        display: grid;
+    }
+    
+  
+   
     .card-img-REF1333-1{
         box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
         border: 2px solid #161616;
         cursor: pointer;
-        width: 80%;
+        width: 135%;
         position: relative;
-        left: 0;
+        left: -10%;
         
       }
+     
       .card-imgREF1321
       {
         box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
         border: 2px solid #161616;
         cursor: pointer;
-        width: 125%;
+        width: 161%;
         position: relative;
-        left: 0%;
-        
+        left: -30%;
       
     
       }
@@ -1128,9 +1135,9 @@ left: -52%;
         box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
         border: 2px solid #161616;
         cursor: pointer;
-        width: 156%;
+        width: 182%;
         position: relative;
-        left: -37%;
+        left: -31%;
       }
         
       .card-imgREF1332 
@@ -1138,9 +1145,9 @@ left: -52%;
         box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
         border: 2px solid #161616;
         cursor: pointer;
-        width: 155%;
+        width: 193%;
         position: relative;
-        left: -37%;
+        left: -39%;
     
       }
       .card-imgREF1334
@@ -1148,9 +1155,9 @@ left: -52%;
         box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
         border: 2px solid #161616;
         cursor: pointer;
-        width: 126%;
+        width: 163%;
         position: relative;
-        left: -11%;
+        left: -25%;
     
       }
       .card-imgREF1326 
@@ -1158,9 +1165,9 @@ left: -52%;
         box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
         border: 2px solid #161616;
         cursor: pointer;
-        width: 116%;
+        width: 160%;
         position: relative;
-        left: -22%;
+        left: -23%;
     
       }
     
@@ -1169,9 +1176,9 @@ left: -52%;
         box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
         border: 2px solid #161616;
         cursor: pointer;
-        width: 126%;
+        width: 162%;
         position: relative;
-        left: -11%;
+        left: -30%;
     
       }
     
@@ -1202,9 +1209,9 @@ left: -52%;
         box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
         border: 2px solid #161616;
         cursor: pointer;
-        width: 126%;
+        width: 156%;
         position: relative;
-        left: -24%;
+        margin: 0 -15px;
     
       }
     
@@ -1227,9 +1234,9 @@ left: -52%;
         box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
         border: 2px solid #161616;
         cursor: pointer;
-        width: 126%;
+        width: 156%;
         position: relative;
-        left: 0;
+        margin: 0 -55px;
     
       }
     
@@ -1299,7 +1306,7 @@ left: -52%;
         cursor: pointer;
         width: 123%;
         position: relative;
-        left: 2%;
+        left: -12%;
     
       }
     
@@ -1310,7 +1317,7 @@ left: -52%;
         cursor: pointer;
         width: 123%;
         position: relative;
-        left: -25%;
+        left: -12%;
     
       }
       .card-imgREF1403
@@ -1320,7 +1327,7 @@ left: -52%;
         cursor: pointer;
         width: 123%;
         position: relative;
-        left: -30%;
+        left: -7%;
     
       }
       .card-imgREF1404
@@ -1328,9 +1335,9 @@ left: -52%;
         box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
         border: 2px solid #161616;
         cursor: pointer;
-        width: 155%;
-        position: relative;
-        left: -35%;
+        margin: 0 20px;  
+         width: 150%;
+
     
       }
     
@@ -1339,9 +1346,9 @@ left: -52%;
         box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
         border: 2px solid #161616;
         cursor: pointer;
-        width: 123%;
+        width: 150%;
         position: relative;
-        left: -10%;
+        left: -22%;
     
       }
     
@@ -1350,9 +1357,9 @@ left: -52%;
         box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
         border: 2px solid #161616;
         cursor: pointer;
-        width: 119%;
+        width: 150%;
         position: relative;
-        left: -10%;
+        left: -22%;
     
       }
     
@@ -1362,9 +1369,9 @@ left: -52%;
         box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
         border: 2px solid #161616;
         cursor: pointer;
-        width: 109%;
+        width: 150%;
         position: relative;
-        left: -10%;
+        left: -22%;
     
       }
     
@@ -1375,9 +1382,9 @@ left: -52%;
         box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
         border: 2px solid #161616;
         cursor: pointer;
-        width: 109%;
+        width: 136%;
         position: relative;
-        left: -10%;
+        left: -17%;
     
       }
     
@@ -1387,9 +1394,9 @@ left: -52%;
         box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
         border: 2px solid #161616;
         cursor: pointer;
-        width: 109%;
+        width: 136%;
         position: relative;
-        left: -10%;
+        left: -17%;
     
       }
     
@@ -1399,9 +1406,9 @@ left: -52%;
         box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
         border: 2px solid #161616;
         cursor: pointer;
-        width: 109%;
+        width: 136%;
         position: relative;
-        left: -10%;
+        left: -17%;
     
       }
     
@@ -1410,9 +1417,9 @@ left: -52%;
         box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
         border: 2px solid #161616;
         cursor: pointer;
-        width: 109%;
+        width: 136%;
         position: relative;
-        left: -10%;
+        left: -17%;
     
       }
     
@@ -1421,9 +1428,9 @@ left: -52%;
         box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
         border: 2px solid #161616;
         cursor: pointer;
-        width: 135%;
+        width: 146%;
         position: relative;
-        left: -23%;
+        left: -17%;
     
       }
     
@@ -1433,9 +1440,9 @@ left: -52%;
         box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
         border: 2px solid #161616;
         cursor: pointer;
-        width: 109%;
+        width: 136%;
         position: relative;
-        left: -10%;
+        left: -17%;
     
       }
     
@@ -1445,10 +1452,9 @@ left: -52%;
         box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
         border: 2px solid #161616;
         cursor: pointer;
-        width: 128%;
+        width: 136%;
         position: relative;
-        left: 0%;
-    
+        left: -17%;
       }
     
       .card-imgREF1351
@@ -1456,9 +1462,9 @@ left: -52%;
         box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
         border: 2px solid #161616;
         cursor: pointer;
-        width: 118%;
+        width: 136%;
         position: relative;
-        left: 5%;
+        left: -17%;
     
       }
     
@@ -1467,9 +1473,9 @@ left: -52%;
         box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
         border: 2px solid #161616;
         cursor: pointer;
-        width: 90%;
+        width: 146%;
         position: relative;
-        left: 0%;
+        left: -17%;
     
       }
     
@@ -1479,9 +1485,9 @@ left: -52%;
         box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
         border: 2px solid #161616;
         cursor: pointer;
-        width: 128%;
+        width: 140%;
         position: relative;
-        left: 0%;
+        left: -17%;
     
       }
     
@@ -1490,9 +1496,9 @@ left: -52%;
         box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
         border: 2px solid #161616;
         cursor: pointer;
-        width: 124%;
+        width: 140%;
         position: relative;
-        left: 0%;
+        left: -17%;
     
       }
     
@@ -1502,9 +1508,9 @@ left: -52%;
         box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
         border: 2px solid #161616;
         cursor: pointer;
-        width: 124%;
-        position: relative;
-        left: -5%;
+        width: 145%;
+    position: relative;
+    left: -17%;
     
       }
     
@@ -1516,9 +1522,9 @@ left: -52%;
       box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
       border: 2px solid #161616;
       cursor: pointer;
-      width: 128%;
-      position: relative;
-      left: -5%;
+      width: 145%;
+        position: relative;
+        left: -17%;
     
     
     }
@@ -1528,10 +1534,9 @@ left: -52%;
       box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
       border: 2px solid #161616;
       cursor: pointer;
-      width: 128%;
+      width: 140%;
       position: relative;
-      left: -5%;
-    
+      left: -17%;
     
     }
     
@@ -1540,21 +1545,29 @@ left: -52%;
       box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
       border: 2px solid #161616;
       cursor: pointer;
-      width: 128%;
+      width: 147%;
       position: relative;
-      left: -5%;
+      left: -12%;
+  
     
     }
+    .card-imgREF1371 h3
+
+{
+    position: relative;
+    left: -200%;
+
+}
     
     .card-imgREF1373
     {
       box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
       border: 2px solid #161616;
       cursor: pointer;
-      width: 128%;
+      width: 205%;
       position: relative;
-      left: -10%;
-      margin-bottom: 10px;
+      left: -36%;
+      margin: 0 -78px;
     
     }
     
@@ -1564,9 +1577,9 @@ left: -52%;
       box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
       border: 2px solid #161616;
       cursor: pointer;
-      width: 90%;
-      position: relative;
-      left: -5%;
+      width: 144%;
+    position: relative;
+    left: -13%;
     
     }
     
@@ -1576,9 +1589,9 @@ left: -52%;
       box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
       border: 2px solid #161616;
       cursor: pointer;
-      width:100%;
+      width: 137%;
       position: relative;
-      left: -10%;
+      left: -16%;
     
     }
     
@@ -1587,9 +1600,9 @@ left: -52%;
       box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
       border: 2px solid #161616;
       cursor: pointer;
-      width: 90%;
+      width: 144%;
       position: relative;
-      left: -5%;
+      left: -13%;
     
     }
     
@@ -1599,9 +1612,9 @@ left: -52%;
       box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
       border: 2px solid #161616;
       cursor: pointer;
-      width:90%;
+      width: 144%;
       position: relative;
-      left: -10%;
+      left: -13%;
     
     }
     
@@ -1611,9 +1624,9 @@ left: -52%;
       box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
       border: 2px solid #161616;
       cursor: pointer;
-      width:90%;
-      position: relative;
-      left: -10%;
+      width: 144%;
+    position: relative;
+    left: -13%;
     
     }
     
@@ -1623,20 +1636,28 @@ left: -52%;
       box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
       border: 2px solid #161616;
       cursor: pointer;
-      width:90%;
+      width: 144%;
       position: relative;
-      left: 0%;
+      left: -13%;
     
+    }
+    hr {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        width: 100%;
+        border: 0;
+        border-top: 1px solid rgba(0,0,0,.1);
     }
     
     .card-img-exóticas1315
     
     {
     
+    
       cursor: pointer;
-      width:150%;
-      position: relative;
-      left: -40%;
+        width: 184%;
+        position: relative;
+        left: 23%;
     
     }
     
@@ -1644,9 +1665,9 @@ left: -52%;
     
     {
         cursor: pointer;
-        width:150%;
+        width:170%;
         position: relative;
-        left: -10%;
+        left: 23%;
     
     }
     
@@ -1655,53 +1676,55 @@ left: -52%;
     {
      
       cursor: pointer;
-      width:160%;
+      width: 193%;
       position: relative;
-      left: -90%;
+      left: 20%;
     
     }
     
     .card-img-exóticas1337{
     
         cursor: pointer;
-        width:160%;
+        width: 190%;
         position: relative;
-        left: -30%;
+        left: 20%;
     }
     
     
     .card-img-exóticas1341{
     
         cursor: pointer;
-        width:160%;
+        width: 128%;
         position: relative;
-        left: 34%;
+        left: 0%;
     }
     
     
     .card-img-exóticas1341b{
     
         cursor: pointer;
-        width:160%;
+        width: 128%;
         position: relative;
-        left: 34%;
+        left: 0%;
     }
     
     .card-img-exóticas1343{
         cursor: pointer;
-        width: 405%;
+
+        width: 168%;
         position: relative;
-        left: -375%;
-        top: 58px;
+        left: -46px;
+        top: 0;
+    
     
     }
     
     .card-img-exóticas1346{
     
         cursor: pointer;
-        width: 200%;
+        width: 140%;
         position: relative;
-        left: -78%;
+        left: -5px;
         top: 58px;
     }
     
@@ -1715,39 +1738,39 @@ left: -52%;
     .card-img-exóticas1387{
     
         cursor: pointer;
-        width: 230%;
+        width: 172%;
         position: relative;
-        left: -57%;
+        left: -19%;
         top: 58px;
     }
     
     .card-img-exóticas1388{
     
         cursor: pointer;
-        width: 230%;
+        width: 210%;
         position: relative;
-        left: -57%;
-        top: 58px;
+        left: -39%;
+        top: 60px;
     
     }
     
     
     .card-img-exóticas1394{
         cursor: pointer;
-        width: 66%;
+        width: 100%;
         position: relative;
-        left: 26%;
+        left: 0%;
         top: 58px;
         margin-bottom: 147px;
     }
     
     .card-img-exóticas1395 {
         cursor: pointer;
-        width: 66%;
+        width: 100%;
         position: relative;
         left: 0%;
-        top: 58px;
-        margin-bottom: 147px;
+        top: -31px;
+        margin-bottom: 0;
     }
     
     .card-img1375 {
@@ -1765,21 +1788,22 @@ left: -52%;
         cursor: pointer;
         width: 138%;
         position: relative;
-        left: -25%;
+        margin: 0 auto;
+    
     }
     
     .card-img1376 {
         box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
         border: 2px solid #161616;
         cursor: pointer;
-        width: 100%;
+        width: 110%;
         position: relative;
-        left: -17%;
+        left: -6%;
     }
     .h31376
     {
         position: relative;
-        left: -45px;
+        left: 0;
     }
     
     
@@ -1788,9 +1812,9 @@ left: -52%;
         box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
         border: 2px solid #161616;
         cursor: pointer;
-        width: 173%;
+        width: 181%;
         position: relative;
-        left: -47%;
+        margin: 0 16px;
     }
     
     .card-img1406 {
@@ -1829,15 +1853,15 @@ left: -52%;
         border: 2px solid #161616;
         cursor: pointer;
        
-        width: 73%;
+        width: 100%;
         position: relative;
-        left: 25%;
+        left: 0%;
     }
     
     .h31410
     {
         position: relative;
-        left: 60px;
+        left: 0px;
     }
     
     .card-img1411{
@@ -1845,9 +1869,9 @@ left: -52%;
         border: 2px solid #161616;
         cursor: pointer;
        
-        width: 73%;
+        width: 100%;
         position: relative;
-        left: 10%;
+        left: 0%;
     }
     
     .card-img1382-1{
@@ -1856,9 +1880,9 @@ left: -52%;
         border: 2px solid #161616;
         cursor: pointer;
        
-        width: 60%;
+        width: 100%;
         position: relative;
-        left: 32%;
+        left: 0%;
         }
     
         .card-img1382-2{
@@ -1867,21 +1891,21 @@ left: -52%;
             border: 2px solid #161616;
             cursor: pointer;
            
-            width: 59%;
+            width: 100%;
             position: relative;
-            left: 10%;
+            left: 0%;
             }
     
-            .h31382
+    .h31382
     {
         position: relative;
-        left: 60px;
+        left: 0%;
     }
     
     .h313822
     {
         position: relative;
-        left: -50px;
+        left: 0%;
     }
     
     .card-img1412{
@@ -2030,17 +2054,30 @@ left: -52%;
     
     
     }
+    .card-img1447-2
+    {
+        box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
+        border: 2px solid #161616;
+        cursor: pointer;
+        width: 100%;
+        position: relative;
+        left: 0;
+    }
     
     .card-img1447-3{
     
     box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
     border: 2px solid #161616;
     cursor: pointer;
-    width: 89%;
+    width: 100%;
     position: relative;
-    left: -14%;
+    left: 0;
     
     
+    }
+    .h31447-3 {
+        position: relative;
+        left: 0;
     }
     
     
@@ -2052,19 +2089,27 @@ left: -52%;
     cursor: pointer;
     width: 91%;
     position: relative;
-    left: -52%;
+    left: 0;
     
     
+    }
+    .h31447-4 {
+        position: relative;
+        left: 0;
     }
     .card-img1448{
     
         box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
         border: 2px solid #161616;
         cursor: pointer;
-        width: 214%;
+        width: 200%;
         position: relative;
-        left: -100%;
+        margin: 0 44%;
         
+    }
+    .h31448 {
+        position: relative;
+        left: 0;
     }
     .card1449{
         box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
@@ -2075,6 +2120,7 @@ left: -52%;
         left: 22%;
         
     }
+
     
     
     .card-img1449-2{
@@ -2094,9 +2140,9 @@ left: -52%;
         box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
         border: 2px solid #161616;
         cursor: pointer;
-        width: 80%;
+        width: 100%;
         position: relative;
-        left: 22%;
+        left: 0;
         
     }
     
@@ -2106,7 +2152,7 @@ left: -52%;
         box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
         border: 2px solid #161616;
         cursor: pointer;
-        width: 80%;
+        width: 100%;
         position: relative;
         left: 0;
         
