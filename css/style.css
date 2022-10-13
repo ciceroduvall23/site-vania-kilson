@@ -2126,9 +2126,9 @@ left: -52%;
         box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
         border: 2px solid #161616;
         cursor: pointer;
-        width: 189%;
+        width: 135%;
         position: relative;
-        left: 3%;
+        left: -10%;
         
       }
      
@@ -2137,10 +2137,9 @@ left: -52%;
         box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
         border: 2px solid #161616;
         cursor: pointer;
-        width: 125%;
+        width: 161%;
         position: relative;
-        left: 0%;
-        
+        left: -30%;
       
     
       }
@@ -2191,9 +2190,9 @@ left: -52%;
         box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
         border: 2px solid #161616;
         cursor: pointer;
-        width: 126%;
+        width: 162%;
         position: relative;
-        left: -11%;
+        left: -30%;
     
       }
     
@@ -2224,9 +2223,9 @@ left: -52%;
         box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
         border: 2px solid #161616;
         cursor: pointer;
-        width: 126%;
+        width: 156%;
         position: relative;
-        left: -24%;
+        margin: 0 -15px;
     
       }
     
@@ -2249,9 +2248,9 @@ left: -52%;
         box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
         border: 2px solid #161616;
         cursor: pointer;
-        width: 126%;
+        width: 156%;
         position: relative;
-        left: 0;
+        margin: 0 -55px;
     
       }
     
@@ -2321,7 +2320,7 @@ left: -52%;
         cursor: pointer;
         width: 123%;
         position: relative;
-        left: 2%;
+        left: -12%;
     
       }
     
@@ -2332,7 +2331,7 @@ left: -52%;
         cursor: pointer;
         width: 123%;
         position: relative;
-        left: -25%;
+        left: -12%;
     
       }
       .card-imgREF1403
@@ -2342,7 +2341,7 @@ left: -52%;
         cursor: pointer;
         width: 123%;
         position: relative;
-        left: -30%;
+        left: -7%;
     
       }
       .card-imgREF1404
@@ -2350,9 +2349,9 @@ left: -52%;
         box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
         border: 2px solid #161616;
         cursor: pointer;
-        width: 155%;
-        position: relative;
-        left: -35%;
+        margin: 0 20px;  
+         width: 150%;
+
     
       }
     
@@ -2582,7 +2581,7 @@ left: -52%;
       width: 205%;
       position: relative;
       left: -36%;
-      margin-bottom: 10px;
+      margin: 0 -78px;
     
     }
     
@@ -2659,7 +2658,7 @@ left: -52%;
     hr {
         margin-top: 1rem;
         margin-bottom: 1rem;
-        width: 117%;
+        width: 100%;
         border: 0;
         border-top: 1px solid rgba(0,0,0,.1);
     }
@@ -2803,21 +2802,22 @@ left: -52%;
         cursor: pointer;
         width: 138%;
         position: relative;
-        left: -25%;
+        margin: 0 auto;
+    
     }
     
     .card-img1376 {
         box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
         border: 2px solid #161616;
         cursor: pointer;
-        width: 100%;
+        width: 110%;
         position: relative;
-        left: -17%;
+        left: -6%;
     }
     .h31376
     {
         position: relative;
-        left: -45px;
+        left: 0;
     }
     
     
@@ -2826,9 +2826,9 @@ left: -52%;
         box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
         border: 2px solid #161616;
         cursor: pointer;
-        width: 173%;
+        width: 181%;
         position: relative;
-        left: -47%;
+        margin: 0 16px;
     }
     
     .card-img1406 {
@@ -2867,15 +2867,15 @@ left: -52%;
         border: 2px solid #161616;
         cursor: pointer;
        
-        width: 73%;
+        width: 100%;
         position: relative;
-        left: 25%;
+        left: 0%;
     }
     
     .h31410
     {
         position: relative;
-        left: 60px;
+        left: 0px;
     }
     
     .card-img1411{
@@ -2883,9 +2883,9 @@ left: -52%;
         border: 2px solid #161616;
         cursor: pointer;
        
-        width: 73%;
+        width: 100%;
         position: relative;
-        left: 10%;
+        left: 0%;
     }
     
     .card-img1382-1{
@@ -2894,9 +2894,9 @@ left: -52%;
         border: 2px solid #161616;
         cursor: pointer;
        
-        width: 60%;
+        width: 100%;
         position: relative;
-        left: 32%;
+        left: 0%;
         }
     
         .card-img1382-2{
@@ -2905,21 +2905,21 @@ left: -52%;
             border: 2px solid #161616;
             cursor: pointer;
            
-            width: 59%;
+            width: 100%;
             position: relative;
-            left: 10%;
+            left: 0%;
             }
     
-            .h31382
+    .h31382
     {
         position: relative;
-        left: 60px;
+        left: 0%;
     }
     
     .h313822
     {
         position: relative;
-        left: -50px;
+        left: 0%;
     }
     
     .card-img1412{
@@ -3068,17 +3068,30 @@ left: -52%;
     
     
     }
+    .card-img1447-2
+    {
+        box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
+        border: 2px solid #161616;
+        cursor: pointer;
+        width: 100%;
+        position: relative;
+        left: 0;
+    }
     
     .card-img1447-3{
     
     box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
     border: 2px solid #161616;
     cursor: pointer;
-    width: 89%;
+    width: 100%;
     position: relative;
-    left: -14%;
+    left: 0;
     
     
+    }
+    .h31447-3 {
+        position: relative;
+        left: 0;
     }
     
     
@@ -3090,19 +3103,27 @@ left: -52%;
     cursor: pointer;
     width: 91%;
     position: relative;
-    left: -52%;
+    left: 0;
     
     
+    }
+    .h31447-4 {
+        position: relative;
+        left: 0;
     }
     .card-img1448{
     
         box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
         border: 2px solid #161616;
         cursor: pointer;
-        width: 214%;
+        width: 200%;
         position: relative;
-        left: -100%;
+        margin: 0 44%;
         
+    }
+    .h31448 {
+        position: relative;
+        left: 0;
     }
     .card1449{
         box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
@@ -3113,6 +3134,7 @@ left: -52%;
         left: 22%;
         
     }
+
     
     
     .card-img1449-2{
@@ -3132,9 +3154,9 @@ left: -52%;
         box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
         border: 2px solid #161616;
         cursor: pointer;
-        width: 80%;
+        width: 100%;
         position: relative;
-        left: 22%;
+        left: 0;
         
     }
     
@@ -3144,7 +3166,7 @@ left: -52%;
         box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
         border: 2px solid #161616;
         cursor: pointer;
-        width: 80%;
+        width: 100%;
         position: relative;
         left: 0;
         
@@ -3248,8 +3270,8 @@ body {
     background: #ffffff;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
+    
 }
-
 .zoom {
 	overflow: hidden;
 }
