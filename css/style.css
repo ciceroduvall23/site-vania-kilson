@@ -2160,7 +2160,8 @@ left: -52%;
 }
 
 @media (max-width: 500px) and (min-width: 300px)
-{  
+{   
+    
     .row-cardexoticas
     {
         display: grid;
@@ -2624,9 +2625,9 @@ left: -52%;
       box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
       border: 2px solid #161616;
       cursor: pointer;
-      width: 205%;
+      width: 176%;
       position: relative;
-      left: -36%;
+      left: 0%;
       margin: 0 -78px;
     
     }
@@ -2637,9 +2638,9 @@ left: -52%;
       box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
       border: 2px solid #161616;
       cursor: pointer;
-      width: 144%;
-    position: relative;
-    left: -13%;
+      width: 132%;
+      position: relative;
+      left: -14%;
     
     }
     
@@ -2745,9 +2746,9 @@ left: -52%;
     .card-img-exóticas1337{
     
         cursor: pointer;
-        width: 190%;
+        width: 181%;
         position: relative;
-        left: 20%;
+        left: 14%;
     }
     
     
@@ -2798,9 +2799,10 @@ left: -52%;
     .card-img-exóticas1387{
     
         cursor: pointer;
-        width: 172%;
+        width: 210%;
         position: relative;
-        left: -19%;
+        left: -53%;
+       
         top: 58px;
     }
     
@@ -2809,8 +2811,9 @@ left: -52%;
         cursor: pointer;
         width: 210%;
         position: relative;
-        left: -39%;
+        left: -53%;
         top: 60px;
+        
     
     }
     
@@ -3356,7 +3359,7 @@ display: flex;
     }
     .modelos-quadros img {
         float: left;
-        width: 40%;
+        width: 70%;
         border: thin solid;
         padding: 20px;
         margin: 0px 10px 10px 0;
@@ -3426,13 +3429,23 @@ background-color: #24121200;
 
     .lado-quadro
 {
-     margin-bottom: 80px;
+     margin-bottom: 30px;
      display: block;
      width: 100%;
     cursor: pointer;
     
    
   
+}
+.lado-quadro img {
+    width: 100%;
+    height: 100%;
+}
+.lado-quadro .quadro {
+    display: inline-flex;
+    justify-content: space-between;
+    border: solid rgb(29, 29, 29) 2px;
+    margin: 38px;
 }
 }
 .item
