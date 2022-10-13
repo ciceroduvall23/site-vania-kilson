@@ -1,6 +1,19 @@
 
 
+body {
+    color: #666666;
+    background: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    overflow:auto; 
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+  
 
+}
 text-content
 {
     color: #007bff;
@@ -3314,13 +3327,7 @@ img {
     MARGIN-TOP: -26px; 
 }
 
-body {
-    color: #666666;
-    background: #ffffff;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    
-}
+
 .zoom {
 	overflow: hidden;
 }
@@ -4225,7 +4232,8 @@ a:focus {
 @media (min-width: 991px) {
    
     .nav-bar.nav-sticky {
-        padding: 6px 15%;
+      
+        padding: 0px 7%;
     }
     
     
