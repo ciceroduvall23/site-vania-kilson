@@ -20,6 +20,8 @@ text-content
 }
 
 
+
+
 .column {
     float: left;
     width: 50%;
@@ -969,6 +971,8 @@ cursor: pointer;
 box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
 border: 2px solid #161616;
 cursor: pointer;
+width: 104%;
+
 
 
 }
@@ -979,6 +983,7 @@ cursor: pointer;
 box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
 border: 2px solid #161616;
 cursor: pointer;
+width: 119%;
 
 
 }
@@ -988,6 +993,8 @@ cursor: pointer;
 box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
 border: 2px solid #161616;
 cursor: pointer;
+width: 119%;
+
 
 
 }
@@ -997,6 +1004,8 @@ cursor: pointer;
 box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
 border: 2px solid #161616;
 cursor: pointer;
+width: 132%;
+
 
 
 }
@@ -1006,9 +1015,28 @@ cursor: pointer;
 box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
 border: 2px solid #161616;
 cursor: pointer;
+width: 97%;
+position: relative;
+    left: 14%;
 
 
 }
+.REF14471
+{
+    position: relative;
+    left: 14%;
+}
+
+.card-img1447-2{
+
+    box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
+    border: 2px solid #161616;
+    cursor: pointer;
+    width: 97%;
+    
+    
+    }
+    
 
 .card-img1447-3{
 
@@ -1042,7 +1070,7 @@ left: -52%;
     cursor: pointer;
     width: 214%;
     position: relative;
-    left: -100%;
+    left: -93%;
     
 }
 .card1449{
@@ -1055,13 +1083,31 @@ left: -52%;
     
 }
 
+.card-img1449-1
+{
+
+    box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
+    border: 2px solid #161616;
+    cursor: pointer;
+    width: 68%;
+    position: relative;
+    left: 18%;
+  
+    
+}
+.REF14492{
+    position: relative;
+    left: -15%;
+
+}
+
 
 .card-img1449-2{
 
     box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
     border: 2px solid #161616;
     cursor: pointer;
-    width: 88%;
+    width: 73%;
     position: relative;
     left: 0;
     
@@ -1073,9 +1119,9 @@ left: -52%;
     box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
     border: 2px solid #161616;
     cursor: pointer;
-    width: 80%;
+    width: 66%;
     position: relative;
-    left: 22%;
+    left: 18%;
     
 }
 
@@ -1085,12 +1131,19 @@ left: -52%;
     box-shadow: 13px 11px 9px 0px rgb(0 0 0 / 66%);
     border: 2px solid #161616;
     cursor: pointer;
-    width: 80%;
+    width: 65%;
     position: relative;
     left: 0;
     
 }
 
+.REF1450-2
+{
+    position: relative;
+    left: -15%;
+
+
+}
 .h31447-3
 {
     position: relative;
